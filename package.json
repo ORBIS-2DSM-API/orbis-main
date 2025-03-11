@@ -1,0 +1,22 @@
+{
+  "name": "orbis-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node backend/server.js",
+  "build": "cd frontend && npm run build",
+  "client": "cd frontend && npm start",
+  "server": "node backend/server.js",
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
