@@ -2,9 +2,9 @@
 
 
 ## 📖 Sobre o Projeto
-Trata-se de um recurso desenvolvido para monitorar e visualizar os principais indicadores de impacto da plataforma **Helpnei**. O objetivo é fornecer **métricas essenciais** para **patrocinadores, stakeholders e administradores**, viabilizando o acompanhamento detalhado do crescimento e engajamento da plataforma.
+Trata-se de um recurso desenvolvido para monitorar e visualizar os principais indicadores de impacto da plataforma **Helpnei**, evindeciando seu crescimento e engajamento.
 
-Esse dashboard exibe **informações estratégicas** em tempo real, incluindo:
+O dashboard exibe **informações estratégicas** em tempo real, incluindo:
 
 - 📌 **Número total de lojas criadas**
 - 👥 **Quantidade de usuários impactados**
@@ -17,7 +17,7 @@ Com uma interface **interativa e intuitiva**, os usuários poderão **aplicar fi
 
 ## 🎯 Objetivo
 
-Criar um **Dashboard Web** que apresente as **métricas essenciais** de forma **clara e acessível**, utilizando **tecnologias modernas** e garantindo um **alto nível de usabilidade e performance**.
+Criar um **Dashboard Web** que apresente **métricas essenciais** para **patrocinadores, stakeholders e administradores**, garantindo um **alto nível de usabilidade e performance**.
 
 
 ## ⚙️ Tecnologias Utilizadas
