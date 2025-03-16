@@ -36,13 +36,12 @@ Criar um **Dashboard Web** que apresente **dados essenciais** para **patrocinado
 
 | Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
 |---------|-----------|------------|------------|--------|------------------------|
-| 1       | Alta      | Como patrocinador, quero visualizar a quantidade de lojas criadas na plataforma para acompanhar o crescimento do negócio. | 2 | 1 | RFP - 2 |
-| 2       | Alta      | Como patrocinador, quero visualizar o número de pessoas impactadas pela plataforma para entender seu alcance social. | 2 | 1 | RFP - 3 |
-| 3       | Alta      | Como patrocinador, quero visualizar o volume de transações realizadas na plataforma para avaliar seu impacto econômico. | 2 | 1 | RFP - 4 |
-| 4       | Alta      | Como patrocinador, quero visualizar um mapa/gráfico com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 2 | 1 | RFP - 5 |
-| 5       | Média     | Como administrador, quero manejar o banco de dados para inserir novos dados. | 4 | 2 |  |
-| 6       | Média     | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no mapa/gráfico. | 4 | 2 |  |
-| 7       | Média     | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 2 | RNFP - 1 |
+| 1       | Alta      | Como administrador, quero manejar o banco de dados para inserir novos dados. | 4 | 1 | RFP - 1 |
+| 2       | Alta      | Como patrocinador, quero visualizar a quantidade de lojas criadas na plataforma para acompanhar o crescimento do negócio. | 2 | 1 | RFP - 2 |
+| 3       | Alta      | Como patrocinador, quero visualizar o número de pessoas impactadas pela plataforma para entender seu alcance social. | 2 | 1 | RFP - 3 |
+| 4       | Alta      | Como patrocinador, quero visualizar um mapa/gráfico com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 1 | 1 | RFP - 4 |
+| 5       | Média     | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no mapa/gráfico. | 4 | 2 | RFP - 4 |
+| 6       | Média     | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 2 | RNFP - 1 |
 
 
 
