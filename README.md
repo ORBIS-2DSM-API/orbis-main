@@ -17,6 +17,16 @@ Com uma interface **interativa**, os usuários poderão **analisar tendências e
 
 Criar um **Dashboard Web** que apresente **dados essenciais** para **patrocinadores, stakeholders e administradores**, garantindo um **alto nível de usabilidade e performance**.
 
+## Instalação/Utilização
+```sh
+git clone --recurse-submodules https://github.com/ORBIS-2DSM-API/orbis-main.git
+```
+```sh
+cd orbis-main
+```
+```sh
+npm run dev
+```
 
 ## ⚙️ Tecnologias Utilizadas
 
