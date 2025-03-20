@@ -1,0 +1,55 @@
+{
+  "sponsor": [
+    {
+      "sponsor_id_bd": 1,
+      "descriptionSponsor": "Loja de eletrônicos e eletrodomésticos",
+      "descriptionTitle": "Tecnologia para todos",
+      "exclusiveUrl": "http://techstore.com/exclusive",
+      "facebook": "http://facebook.com/techstore",
+      "highSponsorLogo": "http://techstore.com/high-logo.png",
+      "instagram": "http://instagram.com/techstore",
+      "kawaii": "http://techstore.com/kawaii",
+      "linkedin": "http://linkedin.com/company/techstore",
+      "lowSponsorLogo": "http://techstore.com/low-logo.png",
+      "nameSponsor": "TechStore",
+      "site_web": "http://techstore.com",
+      "tiktok": "http://tiktok.com/@techstore",
+      "urlSponsor": "http://techstore.com/sponsor",
+      "whatsapp": "http://whatsapp.com/techstore"
+    },
+    {
+      "sponsor_id_bd": 2,
+      "descriptionSponsor": "Produtos de beleza e cuidados pessoais",
+      "descriptionTitle": "Beleza natural",
+      "exclusiveUrl": "http://beautyshop.com/exclusive",
+      "facebook": "http://facebook.com/beautyshop",
+      "highSponsorLogo": "http://beautyshop.com/high-logo.png",
+      "instagram": "http://instagram.com/beautyshop",
+      "kawaii": "http://beautyshop.com/kawaii",
+      "linkedin": "http://linkedin.com/company/beautyshop",
+      "lowSponsorLogo": "http://beautyshop.com/low-logo.png",
+      "nameSponsor": "BeautyShop",
+      "site_web": "http://beautyshop.com",
+      "tiktok": "http://tiktok.com/@beautyshop",
+      "urlSponsor": "http://beautyshop.com/sponsor",
+      "whatsapp": "http://whatsapp.com/beautyshop"
+    },
+    {
+      "sponsor_id_bd": 3,
+      "descriptionSponsor": "Chocolates artesanais para todas as ocasiões",
+      "descriptionTitle": "Doce prazer",
+      "exclusiveUrl": "http://chocodelight.com/exclusive",
+      "facebook": "http://facebook.com/chocodelight",
+      "highSponsorLogo": "http://chocodelight.com/high-logo.png",
+      "instagram": "http://instagram.com/chocodelight",
+      "kawaii": "http://chocodelight.com/kawaii",
+      "linkedin": "http://linkedin.com/company/chocodelight",
+      "lowSponsorLogo": "http://chocodelight.com/low-logo.png",
+      "nameSponsor": "ChocoDelight",
+      "site_web": "http://chocodelight.com",
+      "tiktok": "http://tiktok.com/@chocodelight",
+      "urlSponsor": "http://chocodelight.com/sponsor",
+      "whatsapp": "http://whatsapp.com/chocodelight"
+    }
+  ]
+}

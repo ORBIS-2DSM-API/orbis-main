@@ -1,0 +1,79 @@
+{
+  "community": [
+    {
+      "community_id_bd": 300,
+      "placeId": 1,
+      "bairro": "Jardins",
+      "cep": "01456000",
+      "cidade": "São Paulo",
+      "condominio": "Condomínio Jardins",
+      "endereco": "Avenida Paulista, 1000",
+      "estado": "SP",
+      "geoPoint": "POINT(-23.5614 -46.6558)",
+      "locale": "Urbano",
+      "tipoLocal": "Residencial",
+      "owner_id_bd": 100,
+      "owner_storeOwnerId": 1
+    },
+    {
+      "community_id_bd": 301,
+      "placeId": 2,
+      "bairro": "Copacabana",
+      "cep": "22041010",
+      "cidade": "Rio de Janeiro",
+      "condominio": "Condomínio Copacabana",
+      "endereco": "Avenida Atlântica, 2000",
+      "estado": "RJ",
+      "geoPoint": "POINT(-22.9707 -43.1822)",
+      "locale": "Urbano",
+      "tipoLocal": "Residencial",
+      "owner_id_bd": 101,
+      "owner_storeOwnerId": 2
+    },
+    {
+      "community_id_bd": 302,
+      "placeId": 3,
+      "bairro": "Savassi",
+      "cep": "30140010",
+      "cidade": "Belo Horizonte",
+      "condominio": "Condomínio Savassi",
+      "endereco": "Rua Pernambuco, 500",
+      "estado": "MG",
+      "geoPoint": "POINT(-19.9321 -43.9335)",
+      "locale": "Urbano",
+      "tipoLocal": "Comercial",
+      "owner_id_bd": 102,
+      "owner_storeOwnerId": 3
+    },
+    {
+      "community_id_bd": 303,
+      "placeId": 4,
+      "bairro": "Pinheiros",
+      "cep": "05422000",
+      "cidade": "São Paulo",
+      "condominio": "Condomínio Pinheiros",
+      "endereco": "Rua dos Pinheiros, 300",
+      "estado": "SP",
+      "geoPoint": "POINT(-23.5665 -46.6978)",
+      "locale": "Urbano",
+      "tipoLocal": "Residencial",
+      "owner_id_bd": 103,
+      "owner_storeOwnerId": 4
+    },
+    {
+      "community_id_bd": 304,
+      "placeId": 5,
+      "bairro": "Ipanema",
+      "cep": "22410000",
+      "cidade": "Rio de Janeiro",
+      "condominio": "Condomínio Ipanema",
+      "endereco": "Rua Visconde de Pirajá, 400",
+      "estado": "RJ",
+      "geoPoint": "POINT(-22.9837 -43.2045)",
+      "locale": "Urbano",
+      "tipoLocal": "Residencial",
+      "owner_id_bd": 104,
+      "owner_storeOwnerId": 5
+    }
+  ]
+}

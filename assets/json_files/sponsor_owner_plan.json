@@ -1,0 +1,25 @@
+{
+  "sponsor_owner_plan": [
+    {
+      "sponsor_id_bd": 1,
+      "plan_id_bd": 1,
+      "owner_id_bd": 100,
+      "data_inicio": "2025-01-01",
+      "data_fim": "2025-12-31"
+    },
+    {
+      "sponsor_id_bd": 2,
+      "plan_id_bd": 2,
+      "owner_id_bd": 101,
+      "data_inicio": "2025-02-01",
+      "data_fim": "2025-12-31"
+    },
+    {
+      "sponsor_id_bd": 3,
+      "plan_id_bd": 3,
+      "owner_id_bd": 102,
+      "data_inicio": "2025-03-01",
+      "data_fim": "2025-12-31"
+    }
+  ]
+}

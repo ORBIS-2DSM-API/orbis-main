@@ -1,0 +1,149 @@
+{
+  "ownerData": {
+    "phoneNumber": "+5512987654321",
+    "storeOwnerId": 1,
+    "storeOwnerImage": "https://firebasestorage.googleapis.com/v0/b/helphel-dev.appspot.com/o/1%2FVHym4J5qfRNpKN1Nu11QBASXzkc2.jpg?alt=media&token=7b40bea8-fc774f7e-a375-93e6e80e9bad",
+    "storeOwnerName": "Dominic"
+  },
+  "planData": {
+    "planActive": true,
+    "planName": "Principiante",
+    "productsPerStore": 20,
+    "storeQuantity": 12
+  },
+  "shortLink": "faster",
+  "storeList": [
+    {
+      "affiliatedStore": true,
+      "isActive": true,
+      "productLinkStore": true,
+      "shortDescription": "By Ruama Melo\n\nDescubra a incrível história por trás da criação da marca Skin Body, onde o brilho das mulheres ganha vida! Ruama Melo, uma mulher apaixonada por beleza e cuidados pessoais, teve um sonho ousado: oferecer produtos que fariam você reviver seu brilho interior todos os dias!\n\nImagine-se libertando toda a sua beleza e confiança com os produtos de cabelo, pele e corpo de alta qualidade da Skin Body. Ruama Melo, que compartilha do mesmo desejo de qualidade que você, criou uma linha inovadora, a Divine, especialmente para você se sentir verdadeiramente empoderada.\n\nAcredite, essa não é apenas uma marca de beleza comum. A Skin Body foi criada para estar presente no seu dia a dia, para te servir com o que de melhor Ruama tem a oferecer. Suas paixões e cuidados se transformaram em uma linha única e especial, desenvolvida para libertar o brilho que existe em cada mulher.\n\nComprovada por Ruama Melo e testada por ela mesma, a linha Divine é o segredo para revelar sua verdadeira essência. A Skin Body não mede esforços para trazer até você produtos que realmente funcionam e fazem a diferença na sua vida.",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "produtos diversos",
+      "storeId": 1,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpne1-dev.appspot.com/o/1-Lojas%2FVDgI6CSSCWN66H43L8NZ.jpg?alt=media&token=3e9d78f5-94c6-47df-b64f-f3e37e6442f8",
+      "storeName": "Mercado Livre"
+    },
+    {
+      "affiliatedStore": true,
+      "isActive": true,
+      "productLinkStore": false,
+      "shortDescription": "By Ruama Melo\n\nDescubra a incrível história por trás da criação da marca Skin Body, onde o brilho das mulheres ganha vida! Ruama Melo, uma mulher apaixonada por beleza e cuidados pessoais, teve um sonho ousado: oferecer produtos que fariam você reviver seu brilho interior todos os dias!\n\nImagine-se libertando toda a sua beleza e confiança com os produtos de cabelo, pele e corpo de alta qualidade da Skin Body. Ruama Melo, que compartilha do mesmo desejo de qualidade que você, criou uma linha inovadora, a Divine, especialmente para você se sentir verdadeiramente empoderada.\n\nAcredite, essa não é apenas uma marca de beleza comum. A Skin Body foi criada para estar presente no seu dia a dia, para te servir com o que de melhor Ruama tem a oferecer. Suas paixões e cuidados se transformaram em uma linha única e especial, desenvolvida para libertar o brilho que existe em cada mulher.\n\nComprovada por Ruama Melo e testada por ela mesma, a linha Divine é o segredo para revelar sua verdadeira essência. A Skin Body não mede esforços para trazer até você produtos que realmente funcionam e fazem a diferença na sua vida.",
+      "storeAffiliatedLink": "https://www.amazon.com",
+      "storeCategory": "beleza",
+      "storeId": 2,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpne1-dev.appspot.com/o/1-Lojas%2FMbHPZ34WT1advngogsPN.jpg?alt=media&token=abefbd19-6b9d-49e1-b319-902db24f1a4a",
+      "storeName": "Amazon"
+    },
+    {
+      "affiliatedStore": true,
+      "isActive": true,
+      "productLinkStore": false,
+      "shortDescription": "By Ruama Melo\n\nDescubra a incrível história por trás da criação da marca Skin Body, onde o brilho das mulheres ganha vida! Ruama Melo, uma mulher apaixonada por beleza e cuidados pessoais, teve um sonho ousado: oferecer produtos que fariam você reviver seu brilho interior todos os dias!\n\nImagine-se libertando toda a sua beleza e confiança com os produtos de cabelo, pele e corpo de alta qualidade da Skin Body. Ruama Melo, que compartilha do mesmo desejo de qualidade que você, criou uma linha inovadora, a Divine, especialmente para você se sentir verdadeiramente empoderada.\n\nAcredite, essa não é apenas uma marca de beleza comum. A Skin Body foi criada para estar presente no seu dia a dia, para te servir com o que de melhor Ruama tem a oferecer. Suas paixões e cuidados se transformaram em uma linha única e especial, desenvolvida para libertar o brilho que existe em cada mulher.\n\nComprovada por Ruama Melo e testada por ela mesma, a linha Divine é o segredo para revelar sua verdadeira essência. A Skin Body não mede esforços para trazer até você produtos que realmente funcionam e fazem a diferença na sua vida.",
+      "storeAffiliatedLink": "https://www.boticario.com.br",
+      "storeCategory": "beleza",
+      "storeId": 3,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helphel-dev.appspot.com/o/1-Lojas%2F6zIRtEDFkqLzEkPvvqSF.jpg?alt=media&token=f8e3dc09-dad0-4608-b7da-032a55822471",
+      "storeName": "Boticário"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Há 17 anos entregamos mais de 5,5 milhões de produtos vendidos por ano aos nossos clientes nos 300 Pontos de Venda e 103 lojas Mr. Mix presentes em todo o país",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "beleza",
+      "storeId": 4,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helphel-beta-88d69.appspot.com/o/1-Lojas%2F6Kk831Vn8k52IItTpyWb.jpg?alt=media&token=84cb5227-6582-4e94-8563-6a9c1fb2b841",
+      "storeName": "Mr. Mix Sorvetes"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Há 17 anos entregamos mais de 5,5 milhões de produtos vendidos por ano aos nossos clientes nos 300 Pontos de Venda e 183 lojas Mr. Mix presentes em todo o país",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "beleza",
+      "storeId": 5,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-beta-88d69.appspot.com/o/1-Lojas%2F6Kk831Vn8k52IItTpyWb.jpg?alt=media&token=84cb5227-6582-4e94-8563-6a9c1fb2b841",
+      "storeName": "Mr. Mix Sorvetes"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Há 17 anos entregamos mais de 5,5 milhões de produtos vendidos por ano aos nossos clientes nos 300 Pontos de Venda e 183 lojas Mr. Mix presentes em todo o país",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "beleza",
+      "storeId": 6,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-beta-88d69.appspot.com/o/1-Lojas%2F6Kk831Vn8k52IItTpyWb.jpg?alt=media&token=84cb5227-6582-4e94-8563-6a9c1fb2b841",
+      "storeName": "Mr. Mix Sorvetes"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Há 17 anos entregamos mais de 5,5 milhões de produtos vendidos por ano aos nossos clientes nos 300 Pontos de Venda e 183 lojas Mr. Mix presentes em todo o país",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "beleza",
+      "storeId": 7,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-beta-88d69.appspot.com/o/1-Lojas%2F6Kk831Vn8k52IItTpyWb.jpg?alt=media&token=84cb5227-6582-4e94-8563-6a9c1fb2b841",
+      "storeName": "Mr. Mix Sorvetes"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Há 17 anos entregamos mais de 5,5 milhões de produtos vendidos por ano aos nossos clientes nos 300 Pontos de Venda e 103 lojas Mr. Mix presentes em todo o país",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "beleza",
+      "storeId": 8,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-beta-88d69.appspot.com/o/1-Lojas%2F6Kk831Vn8k52IItTpyWb.jpg?alt=media&token=84cb5227-6582-4e94-8563-6a9c1fb2b841",
+      "storeName": "Mr. Mix Sorvetes"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Uma empresa multinacional líder no mercado de produtos cosméticos, perfumaria e saúde & bem-estar, entregando qualidade e confiança desde 1994.\n\nProdutos exclusivos. Atualmente temos mais de 200 produtos em catálogo, vários premiados e com qualidade e eficácia comprovadas.",
+      "storeAffiliatedLink": "n",
+      "storeCategory": "beleza",
+      "storeId": 9,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-beta-88d69.appspot.com/o/1-Lojas%2Fx15pNI0B8NZfKUVo180w.jpg?alt=media&token=2f9c4476-6ec2-4e92-9323-3fdc8758c55c",
+      "storeName": "Jan Rose"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "By Ruama Melo\n\nDescubra a incrível história por trás da criação da marca Skin Body, onde o brilho das mulheres ganha vida! Ruama Melo, uma mulher apaixonada por beleza e cuidados pessoais, teve um sonho ousado: oferecer produtos que fariam você reviver seu brilho interior todos os dias!\n\nImagine-se libertando toda a sua beleza e confiança com os produtos de cabelo, pele e corpo de alta qualidade da Skin Body. Ruama Melo, que compartilha do mesmo desejo de qualidade que você, criou uma linha inovadora, a Divine, especialmente para você se sentir verdadeiramente empoderada.\n\nAcredite, essa não é apenas uma marca de beleza comum. A Skin Body foi criada para estar presente no seu dia a dia, para te servir com o que de melhor Ruama tem a oferecer. Suas paixões e cuidados se transformaram em uma linha única e especial, desenvolvida para libertar o brilho que existe em cada mulher.\n\nComprovada por Ruama Melo e testada por ela mesma, a linha Divine é o segredo para revelar sua verdadeira essência. A Skin Body não mede esforços para trazer até você produtos que realmente funcionam e fazem a diferença na sua vida.",
+      "storeAffiliatedLink": "",
+      "storeCategory": "beleza",
+      "storeId": 10,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-beta-88d69.appspot.com/o/1-Lojas%2FvESPPdMbBvm917WwJd89.jpg?alt=media&token=8070b2a4-e6e7-45fc-a54d-da69d5d5f709",
+      "storeName": "Skin Body"
+    },
+    {
+      "affiliatedStore": true,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Teste",
+      "storeAffiliatedLink": "https://www.google.com",
+      "storeCategory": "Ciência, Tecnologia e Engenharia",
+      "storeId": 11,
+      "storeImage": null,
+      "storeName": "Google"
+    },
+    {
+      "affiliatedStore": false,
+      "isActive": true,
+      "productLinkStore": null,
+      "shortDescription": "Games",
+      "storeAffiliatedLink": "",
+      "storeCategory": "Esportes e Recreação",
+      "storeId": 12,
+      "storeImage": "https://firebasestorage.googleapis.com/v0/b/helpnei-dev.appspot.com/o/1-Lojas%2Frm8KvLLGwDavkoLo7tEd.jpg?alt=media&token=1929271e-2295-4b22-99dc-c6a397130adc",
+      "storeName": "Games"
+    }
+  ]
+}

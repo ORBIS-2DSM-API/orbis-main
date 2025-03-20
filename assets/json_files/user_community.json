@@ -1,0 +1,24 @@
+{
+  "usuario_community": [
+    {
+      "usuar_id": 1000,
+      "com_id": 300
+    },
+    {
+      "usuar_id": 1001,
+      "com_id": 301
+    },
+    {
+      "usuar_id": 1002,
+      "com_id": 302
+    },
+    {
+      "usuar_id": 1003,
+      "com_id": 303
+    },
+    {
+      "usuar_id": 1004,
+      "com_id": 304
+    }
+  ]
+}
