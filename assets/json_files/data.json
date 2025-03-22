@@ -1,0 +1,263 @@
+{
+    "planData": [
+      {
+        "plan_id_bd": 1,
+        "planName": "Plano Prata",
+        "planActive": true,
+        "productInStore": 30,
+        "storeQuantity": 3,
+        "communityQuantity": 0,
+        "price": 14.97
+      },
+      {
+        "plan_id_bd": 2,
+        "planName": "Plano Ouro",
+        "planActive": true,
+        "productInStore": 100,
+        "storeQuantity": 10,
+        "communityQuantity": 5,
+        "price": 19.97
+      },
+      {
+        "plan_id_bd": 3,
+        "planName": "Plano Diamante",
+        "planActive": true,
+        "productInStore": 200,
+        "storeQuantity": 30,
+        "communityQuantity": 5,
+        "price": 59.97
+      }
+    ],
+    "sponsor": [
+      {
+        "sponsor_id_bd": 1,
+        "descriptionSponsor": "Patrocinador de tecnologia",
+        "descriptionTitle": "Tech Sponsor",
+        "expirationUrl": "http://example.com/expire",
+        "facebook": "http://facebook.com/techsponsor",
+        "highSponsorLogo": "http://example.com/highlogo.png",
+        "instagram": "http://instagram.com/techsponsor",
+        "kawai": "http://kawai.com/techsponsor",
+        "linkedin": "http://linkedin.com/techsponsor",
+        "lowSponsorLogo": "http://example.com/lowlogo.png",
+        "nameSponsor": "Tech Sponsor",
+        "site_web": "http://techsponsor.com",
+        "tiktok": "http://tiktok.com/techsponsor",
+        "urlSponsor": "http://techsponsor.com/sponsor",
+        "whatsapp": "http://whatsapp.com/techsponsor"
+      },
+      {
+        "sponsor_id_bd": 2,
+        "descriptionSponsor": "Patrocinador de moda",
+        "descriptionTitle": "Fashion Sponsor",
+        "expirationUrl": "http://example.com/expire-fashion",
+        "facebook": "http://facebook.com/fashionsponsor",
+        "highSponsorLogo": "http://example.com/highlogo-fashion.png",
+        "instagram": "http://instagram.com/fashionsponsor",
+        "kawai": "http://kawai.com/fashionsponsor",
+        "linkedin": "http://linkedin.com/fashionsponsor",
+        "lowSponsorLogo": "http://example.com/lowlogo-fashion.png",
+        "nameSponsor": "Fashion Sponsor",
+        "site_web": "http://fashionsponsor.com",
+        "tiktok": "http://tiktok.com/fashionsponsor",
+        "urlSponsor": "http://fashionsponsor.com/sponsor",
+        "whatsapp": "http://whatsapp.com/fashionsponsor"
+      },
+      {
+        "sponsor_id_bd": 3,
+        "descriptionSponsor": "Patrocinador de esportes",
+        "descriptionTitle": "Sports Sponsor",
+        "expirationUrl": "http://example.com/expire-sports",
+        "facebook": "http://facebook.com/sportssponsor",
+        "highSponsorLogo": "http://example.com/highlogo-sports.png",
+        "instagram": "http://instagram.com/sportssponsor",
+        "kawai": "http://kawai.com/sportssponsor",
+        "linkedin": "http://linkedin.com/sportssponsor",
+        "lowSponsorLogo": "http://example.com/lowlogo-sports.png",
+        "nameSponsor": "Sports Sponsor",
+        "site_web": "http://sportssponsor.com",
+        "tiktok": "http://tiktok.com/sportssponsor",
+        "urlSponsor": "http://sportssponsor.com/sponsor",
+        "whatsapp": "http://whatsapp.com/sportssponsor"
+      }
+    ],
+    "owner": [
+      {
+        "owner_id_bd": 1,
+        "storeOwnerId": 101,
+        "owner_name": "João Silva"
+      },
+      {
+        "owner_id_bd": 2,
+        "storeOwnerId": 102,
+        "owner_name": "Maria Souza"
+      },
+      {
+        "owner_id_bd": 3,
+        "storeOwnerId": 103,
+        "owner_name": "Carlos Oliveira"
+      }
+    ],
+    "store": [
+      {
+        "store_id_bd": 1,
+        "storeCategory": "Eletrônicos",
+        "storeName": "Loja Tech",
+        "shortDescription": "Loja especializada em gadgets",
+        "isActive": true,
+        "affiliateStore": false,
+        "productLikeStore": "Gadgets",
+        "propAffiliateLink": "http://lojatech.com/afiliado",
+        "data_criacao": "2023-01-01",
+        "owner_owner_id_bd": 1,
+        "owner_storeOwnerId": 101
+      }
+    ],
+    "community": [
+      {
+        "community_id_bd": 1,
+        "placeId": 1001,
+        "bairro": "Centro",
+        "cep": "12345678",
+        "cidade": "São Paulo",
+        "condominio": "Condomínio Tech",
+        "endereco": "Rua Tech, 123",
+        "estado": "SP",
+        "geoPoint": "-23.5505,-46.6333",
+        "local": "Tech Hub",
+        "tipoLocal": "Comercial",
+        "owner_owner_id_bd": 1,
+        "owner_storeOwnerId": 101
+      },
+      {
+        "community_id_bd": 2,
+        "placeId": 1002,
+        "bairro": "Jardins",
+        "cep": "87654321",
+        "cidade": "São Paulo",
+        "condominio": "Condomínio Green",
+        "endereco": "Avenida Green, 456",
+        "estado": "SP",
+        "geoPoint": "-23.5678,-46.6543",
+        "local": "Green Hub",
+        "tipoLocal": "Residencial",
+        "owner_owner_id_bd": 2,
+        "owner_storeOwnerId": 102
+      },
+      {
+        "community_id_bd": 3,
+        "placeId": 1003,
+        "bairro": "Moema",
+        "cep": "54321678",
+        "cidade": "São Paulo",
+        "condominio": "Condomínio Blue",
+        "endereco": "Rua Blue, 789",
+        "estado": "SP",
+        "geoPoint": "-23.6000,-46.6700",
+        "local": "Blue Hub",
+        "tipoLocal": "Comercial",
+        "owner_owner_id_bd": 3,
+        "owner_storeOwnerId": 103
+      },
+      {
+        "community_id_bd": 4,
+        "placeId": 1004,
+        "bairro": "Pinheiros",
+        "cep": "13579246",
+        "cidade": "São Paulo",
+        "condominio": "Condomínio Yellow",
+        "endereco": "Rua Yellow, 101",
+        "estado": "SP",
+        "geoPoint": "-23.5700,-46.6900",
+        "local": "Yellow Hub",
+        "tipoLocal": "Residencial",
+        "owner_owner_id_bd": 1,
+        "owner_storeOwnerId": 101
+      }
+    ],
+    "usuario": [
+      {
+        "user_id_bd": 1,
+        "owner_owner_id_bd": 1,
+        "owner_storeOwnerId": 101
+      },
+      {
+        "user_id_bd": 2,
+        "owner_owner_id_bd": 2,
+        "owner_storeOwnerId": 102
+      },
+      {
+        "user_id_bd": 3,
+        "owner_owner_id_bd": 3,
+        "owner_storeOwnerId": 103
+      }
+    ],
+    "sponsor_owner_plan": [
+      {
+        "sponsor_sponsor_id_bd": 1,
+        "planData_plan_id_bd": 1,
+        "data_inicio": "2023-01-01T00:00:00Z",
+        "data_fim": "2023-12-31T23:59:59Z"
+      },
+      {
+        "sponsor_sponsor_id_bd": 2,
+        "planData_plan_id_bd": 2,
+        "data_inicio": "2023-01-01T00:00:00Z",
+        "data_fim": "2023-12-31T23:59:59Z"
+      },
+      {
+        "sponsor_sponsor_id_bd": 3,
+        "planData_plan_id_bd": 3,
+        "data_inicio": "2023-01-01T00:00:00Z",
+        "data_fim": "2023-12-31T23:59:59Z"
+      }
+    ],
+    "owner_community": [
+      {
+        "owner_owner_id_bd": 1,
+        "owner_storeOwnerId": 101,
+        "community_placeId": 1001,
+        "community_community_id_bd": 1
+      },
+      {
+        "owner_owner_id_bd": 2,
+        "owner_storeOwnerId": 102,
+        "community_placeId": 1002,
+        "community_community_id_bd": 2
+      },
+      {
+        "owner_owner_id_bd": 3,
+        "owner_storeOwnerId": 103,
+        "community_placeId": 1003,
+        "community_community_id_bd": 3
+      },
+      {
+        "owner_owner_id_bd": 1,
+        "owner_storeOwnerId": 101,
+        "community_placeId": 1004,
+        "community_community_id_bd": 4
+      }
+    ],
+    "usuario_community": [
+      {
+        "usuario_user_id_bd": 1,
+        "community_placeId": 1001,
+        "community_community_id_bd": 1
+      },
+      {
+        "usuario_user_id_bd": 2,
+        "community_placeId": 1002,
+        "community_community_id_bd": 2
+      },
+      {
+        "usuario_user_id_bd": 3,
+        "community_placeId": 1003,
+        "community_community_id_bd": 3
+      },
+      {
+        "usuario_user_id_bd": 1,
+        "community_placeId": 1004,
+        "community_community_id_bd": 4
+      }
+    ]
+  }
