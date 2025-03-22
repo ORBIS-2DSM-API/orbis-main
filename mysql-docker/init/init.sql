@@ -1,0 +1,101 @@
+CREATE TABLE planData (
+    plan_id_bd INT PRIMARY KEY,
+    planName VARCHAR(20),
+    planActive BOOLEAN,
+    productInStore INT,
+    storeQuantity INT,
+    communityQuantity INT,
+    price DECIMAL(10,2)
+);
+
+CREATE TABLE sponsor (
+    sponsor_id_bd INT PRIMARY KEY,
+    descriptionSponsor VARCHAR(255),
+    descriptionTitle VARCHAR(255),
+    expirationUrl VARCHAR(255),
+    facebook VARCHAR(255),
+    highSponsorLogo VARCHAR(255),
+    instagram VARCHAR(255),
+    kawai VARCHAR(255),
+    linkedin VARCHAR(255),
+    lowSponsorLogo VARCHAR(255),
+    nameSponsor VARCHAR(255),
+    site_web VARCHAR(255),
+    tiktok VARCHAR(255),
+    urlSponsor VARCHAR(255),
+    whatsapp VARCHAR(255)
+);
+
+CREATE TABLE owner (
+    owner_id_bd INT PRIMARY KEY,
+    storeOwnerId INT,
+    owner_name VARCHAR(50)
+);
+
+CREATE TABLE store (
+    store_id_bd INT PRIMARY KEY,
+    storeCategory VARCHAR(100),
+    storeName VARCHAR(255),
+    shortDescription VARCHAR(255),
+    isActive BOOLEAN,
+    affiliateStore BOOLEAN,
+    productLikeStore VARCHAR(255),
+    propAffiliateLink VARCHAR(255),
+    data_criacao DATE,
+    owner_owner_id_bd INT,
+    owner_storeOwnerId INT,
+    FOREIGN KEY (owner_owner_id_bd, owner_storeOwnerId) REFERENCES owner(owner_id_bd, storeOwnerId)
+);
+
+CREATE TABLE community (
+    community_id_bd INT PRIMARY KEY,
+    placeId INT,
+    bairro VARCHAR(100),
+    cep VARCHAR(8),
+    cidade VARCHAR(255),
+    condominio VARCHAR(255),
+    endereco VARCHAR(255),
+    estado VARCHAR(100),
+    geoPoint VARCHAR(255),
+    local VARCHAR(255),
+    tipoLocal VARCHAR(100),
+    owner_owner_id_bd INT,
+    owner_storeOwnerId INT,
+    FOREIGN KEY (owner_owner_id_bd, owner_storeOwnerId) REFERENCES owner(owner_id_bd, storeOwnerId)
+);
+
+CREATE TABLE usuario (
+    user_id_bd INT PRIMARY KEY,
+    owner_owner_id_bd INT,
+    owner_storeOwnerId INT,
+    FOREIGN KEY (owner_owner_id_bd, owner_storeOwnerId) REFERENCES owner(owner_id_bd, storeOwnerId)
+);
+
+CREATE TABLE sponsor_owner_plan (
+    sponsor_sponsor_id_bd INT,
+    planData_plan_id_bd INT,
+    data_inicio DATETIME,
+    data_fim DATETIME,
+    PRIMARY KEY (sponsor_sponsor_id_bd, planData_plan_id_bd),
+    FOREIGN KEY (sponsor_sponsor_id_bd) REFERENCES sponsor(sponsor_id_bd),
+    FOREIGN KEY (planData_plan_id_bd) REFERENCES planData(plan_id_bd)
+);
+
+CREATE TABLE owner_community (
+    owner_owner_id_bd INT,
+    owner_storeOwnerId INT,
+    community_placeId INT,
+    community_community_id_bd INT,
+    PRIMARY KEY (owner_owner_id_bd, owner_storeOwnerId, community_placeId, community_community_id_bd),
+    FOREIGN KEY (owner_owner_id_bd, owner_storeOwnerId) REFERENCES owner(owner_id_bd, storeOwnerId),
+    FOREIGN KEY (community_community_id_bd) REFERENCES community(community_id_bd)
+);
+
+CREATE TABLE usuario_community (
+    usuario_user_id_bd INT,
+    community_placeId INT,
+    community_community_id_bd INT,
+    PRIMARY KEY (usuario_user_id_bd, community_placeId, community_community_id_bd),
+    FOREIGN KEY (usuario_user_id_bd) REFERENCES usuario(user_id_bd),
+    FOREIGN KEY (community_community_id_bd) REFERENCES community(community_id_bd)
+);
