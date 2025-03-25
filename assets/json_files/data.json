@@ -1,263 +1,697 @@
 {
-    "planData": [
-      {
-        "plan_id_bd": 1,
-        "planName": "Plano Prata",
-        "planActive": true,
-        "productInStore": 30,
-        "storeQuantity": 3,
-        "communityQuantity": 0,
-        "price": 14.97
-      },
-      {
-        "plan_id_bd": 2,
-        "planName": "Plano Ouro",
-        "planActive": true,
-        "productInStore": 100,
-        "storeQuantity": 10,
-        "communityQuantity": 5,
-        "price": 19.97
-      },
-      {
-        "plan_id_bd": 3,
-        "planName": "Plano Diamante",
-        "planActive": true,
-        "productInStore": 200,
-        "storeQuantity": 30,
-        "communityQuantity": 5,
-        "price": 59.97
-      }
-    ],
-    "sponsor": [
-      {
-        "sponsor_id_bd": 1,
-        "descriptionSponsor": "Patrocinador de tecnologia",
-        "descriptionTitle": "Tech Sponsor",
-        "expirationUrl": "http://example.com/expire",
-        "facebook": "http://facebook.com/techsponsor",
-        "highSponsorLogo": "http://example.com/highlogo.png",
-        "instagram": "http://instagram.com/techsponsor",
-        "kawai": "http://kawai.com/techsponsor",
-        "linkedin": "http://linkedin.com/techsponsor",
-        "lowSponsorLogo": "http://example.com/lowlogo.png",
-        "nameSponsor": "Tech Sponsor",
-        "site_web": "http://techsponsor.com",
-        "tiktok": "http://tiktok.com/techsponsor",
-        "urlSponsor": "http://techsponsor.com/sponsor",
-        "whatsapp": "http://whatsapp.com/techsponsor"
-      },
-      {
-        "sponsor_id_bd": 2,
-        "descriptionSponsor": "Patrocinador de moda",
-        "descriptionTitle": "Fashion Sponsor",
-        "expirationUrl": "http://example.com/expire-fashion",
-        "facebook": "http://facebook.com/fashionsponsor",
-        "highSponsorLogo": "http://example.com/highlogo-fashion.png",
-        "instagram": "http://instagram.com/fashionsponsor",
-        "kawai": "http://kawai.com/fashionsponsor",
-        "linkedin": "http://linkedin.com/fashionsponsor",
-        "lowSponsorLogo": "http://example.com/lowlogo-fashion.png",
-        "nameSponsor": "Fashion Sponsor",
-        "site_web": "http://fashionsponsor.com",
-        "tiktok": "http://tiktok.com/fashionsponsor",
-        "urlSponsor": "http://fashionsponsor.com/sponsor",
-        "whatsapp": "http://whatsapp.com/fashionsponsor"
-      },
-      {
-        "sponsor_id_bd": 3,
-        "descriptionSponsor": "Patrocinador de esportes",
-        "descriptionTitle": "Sports Sponsor",
-        "expirationUrl": "http://example.com/expire-sports",
-        "facebook": "http://facebook.com/sportssponsor",
-        "highSponsorLogo": "http://example.com/highlogo-sports.png",
-        "instagram": "http://instagram.com/sportssponsor",
-        "kawai": "http://kawai.com/sportssponsor",
-        "linkedin": "http://linkedin.com/sportssponsor",
-        "lowSponsorLogo": "http://example.com/lowlogo-sports.png",
-        "nameSponsor": "Sports Sponsor",
-        "site_web": "http://sportssponsor.com",
-        "tiktok": "http://tiktok.com/sportssponsor",
-        "urlSponsor": "http://sportssponsor.com/sponsor",
-        "whatsapp": "http://whatsapp.com/sportssponsor"
-      }
-    ],
-    "owner": [
-      {
-        "owner_id_bd": 1,
-        "storeOwnerId": 101,
-        "owner_name": "João Silva"
-      },
-      {
-        "owner_id_bd": 2,
-        "storeOwnerId": 102,
-        "owner_name": "Maria Souza"
-      },
-      {
-        "owner_id_bd": 3,
-        "storeOwnerId": 103,
-        "owner_name": "Carlos Oliveira"
-      }
-    ],
-    "store": [
-      {
-        "store_id_bd": 1,
-        "storeCategory": "Eletrônicos",
-        "storeName": "Loja Tech",
-        "shortDescription": "Loja especializada em gadgets",
-        "isActive": true,
-        "affiliateStore": false,
-        "productLikeStore": "Gadgets",
-        "propAffiliateLink": "http://lojatech.com/afiliado",
-        "data_criacao": "2023-01-01",
-        "owner_owner_id_bd": 1,
-        "owner_storeOwnerId": 101
-      }
-    ],
-    "community": [
-      {
-        "community_id_bd": 1,
-        "placeId": 1001,
-        "bairro": "Centro",
-        "cep": "12345678",
-        "cidade": "São Paulo",
-        "condominio": "Condomínio Tech",
-        "endereco": "Rua Tech, 123",
-        "estado": "SP",
-        "geoPoint": "-23.5505,-46.6333",
-        "local": "Tech Hub",
-        "tipoLocal": "Comercial",
-        "owner_owner_id_bd": 1,
-        "owner_storeOwnerId": 101
-      },
-      {
-        "community_id_bd": 2,
-        "placeId": 1002,
-        "bairro": "Jardins",
-        "cep": "87654321",
-        "cidade": "São Paulo",
-        "condominio": "Condomínio Green",
-        "endereco": "Avenida Green, 456",
-        "estado": "SP",
-        "geoPoint": "-23.5678,-46.6543",
-        "local": "Green Hub",
-        "tipoLocal": "Residencial",
-        "owner_owner_id_bd": 2,
-        "owner_storeOwnerId": 102
-      },
-      {
-        "community_id_bd": 3,
-        "placeId": 1003,
-        "bairro": "Moema",
-        "cep": "54321678",
-        "cidade": "São Paulo",
-        "condominio": "Condomínio Blue",
-        "endereco": "Rua Blue, 789",
-        "estado": "SP",
-        "geoPoint": "-23.6000,-46.6700",
-        "local": "Blue Hub",
-        "tipoLocal": "Comercial",
-        "owner_owner_id_bd": 3,
-        "owner_storeOwnerId": 103
-      },
-      {
-        "community_id_bd": 4,
-        "placeId": 1004,
-        "bairro": "Pinheiros",
-        "cep": "13579246",
-        "cidade": "São Paulo",
-        "condominio": "Condomínio Yellow",
-        "endereco": "Rua Yellow, 101",
-        "estado": "SP",
-        "geoPoint": "-23.5700,-46.6900",
-        "local": "Yellow Hub",
-        "tipoLocal": "Residencial",
-        "owner_owner_id_bd": 1,
-        "owner_storeOwnerId": 101
-      }
-    ],
-    "usuario": [
-      {
-        "user_id_bd": 1,
-        "owner_owner_id_bd": 1,
-        "owner_storeOwnerId": 101
-      },
-      {
-        "user_id_bd": 2,
-        "owner_owner_id_bd": 2,
-        "owner_storeOwnerId": 102
-      },
-      {
-        "user_id_bd": 3,
-        "owner_owner_id_bd": 3,
-        "owner_storeOwnerId": 103
-      }
-    ],
-    "sponsor_owner_plan": [
-      {
-        "sponsor_sponsor_id_bd": 1,
-        "planData_plan_id_bd": 1,
-        "data_inicio": "2023-01-01T00:00:00Z",
-        "data_fim": "2023-12-31T23:59:59Z"
-      },
-      {
-        "sponsor_sponsor_id_bd": 2,
-        "planData_plan_id_bd": 2,
-        "data_inicio": "2023-01-01T00:00:00Z",
-        "data_fim": "2023-12-31T23:59:59Z"
-      },
-      {
-        "sponsor_sponsor_id_bd": 3,
-        "planData_plan_id_bd": 3,
-        "data_inicio": "2023-01-01T00:00:00Z",
-        "data_fim": "2023-12-31T23:59:59Z"
-      }
-    ],
-    "owner_community": [
-      {
-        "owner_owner_id_bd": 1,
-        "owner_storeOwnerId": 101,
-        "community_placeId": 1001,
-        "community_community_id_bd": 1
-      },
-      {
-        "owner_owner_id_bd": 2,
-        "owner_storeOwnerId": 102,
-        "community_placeId": 1002,
-        "community_community_id_bd": 2
-      },
-      {
-        "owner_owner_id_bd": 3,
-        "owner_storeOwnerId": 103,
-        "community_placeId": 1003,
-        "community_community_id_bd": 3
-      },
-      {
-        "owner_owner_id_bd": 1,
-        "owner_storeOwnerId": 101,
-        "community_placeId": 1004,
-        "community_community_id_bd": 4
-      }
-    ],
-    "usuario_community": [
-      {
-        "usuario_user_id_bd": 1,
-        "community_placeId": 1001,
-        "community_community_id_bd": 1
-      },
-      {
-        "usuario_user_id_bd": 2,
-        "community_placeId": 1002,
-        "community_community_id_bd": 2
-      },
-      {
-        "usuario_user_id_bd": 3,
-        "community_placeId": 1003,
-        "community_community_id_bd": 3
-      },
-      {
-        "usuario_user_id_bd": 1,
-        "community_placeId": 1004,
-        "community_community_id_bd": 4
-      }
-    ]
-  }
+  "planData": [
+    {
+      "plan_id_bd": 1,
+      "planName": "Plano Prata",
+      "planActive": true,
+      "productInStore": 30,
+      "storeQuantity": 3,
+      "communityQuantity": 0,
+      "price": 14.97
+    },
+    {
+      "plan_id_bd": 2,
+      "planName": "Plano Ouro",
+      "planActive": true,
+      "productInStore": 100,
+      "storeQuantity": 10,
+      "communityQuantity": 5,
+      "price": 19.97
+    },
+    {
+      "plan_id_bd": 3,
+      "planName": "Plano Diamante",
+      "planActive": true,
+      "productInStore": 200,
+      "storeQuantity": 30,
+      "communityQuantity": 5,
+      "price": 59.97
+    }
+  ],
+  "sponsor": [
+    {
+      "sponsor_id_bd": 1,
+      "descriptionSponsor": "Gigante global de bebidas refrescantes, promovendo experiências inesquecíveis.",
+      "descriptionTitle": "Patrocinador Oficial de Momentos Felizes",
+      "expirationUrl": "http://coca-cola.com/expire",
+      "facebook": "http://facebook.com/cocacola",
+      "highSponsorLogo": "http://coca-cola.com/highlogo.png",
+      "instagram": "http://instagram.com/cocacola",
+      "kawai": "http://kawai.com/cocacola",
+      "linkedin": "http://linkedin.com/company/cocacola",
+      "lowSponsorLogo": "http://coca-cola.com/lowlogo.png",
+      "nameSponsor": "Coca-Cola",
+      "site_web": "http://coca-cola.com",
+      "tiktok": "http://tiktok.com/cocacola",
+      "urlSponsor": "http://coca-cola.com/sponsor",
+      "whatsapp": "http://whatsapp.com/cocacola",
+      "x": "http://x.com/cocacola"
+    },
+    {
+      "sponsor_id_bd": 2,
+      "descriptionSponsor": "Líder no varejo brasileiro, conectando milhões de clientes a produtos incríveis.",
+      "descriptionTitle": "Transformando o Varejo com Inovação",
+      "expirationUrl": "http://magazineluiza.com/expire",
+      "facebook": "http://facebook.com/magazineluiza",
+      "highSponsorLogo": "http://magazineluiza.com/highlogo.png",
+      "instagram": "http://instagram.com/magazineluiza",
+      "kawai": "http://kawai.com/magazineluiza",
+      "linkedin": "http://linkedin.com/company/magazineluiza",
+      "lowSponsorLogo": "http://magazineluiza.com/lowlogo.png",
+      "nameSponsor": "Magazine Luiza",
+      "site_web": "http://magazineluiza.com",
+      "tiktok": "http://tiktok.com/magazineluiza",
+      "urlSponsor": "http://magazineluiza.com/sponsor",
+      "whatsapp": "http://whatsapp.com/magazineluiza",
+      "x": "http://x.com/magazineluiza"
+    },
+    {
+      "sponsor_id_bd": 3,
+      "descriptionSponsor": "Referência em beleza e cosméticos, espalhando fragrâncias pelo Brasil.",
+      "descriptionTitle": "Patrocinador da Beleza Brasileira",
+      "expirationUrl": "http://oboticario.com/expire",
+      "facebook": "http://facebook.com/oboticario",
+      "highSponsorLogo": "http://oboticario.com/highlogo.png",
+      "instagram": "http://instagram.com/oboticario",
+      "kawai": "http://kawai.com/oboticario",
+      "linkedin": "http://linkedin.com/company/oboticario",
+      "lowSponsorLogo": "http://oboticario.com/lowlogo.png",
+      "nameSponsor": "O Boticário",
+      "site_web": "http://oboticario.com",
+      "tiktok": "http://tiktok.com/oboticario",
+      "urlSponsor": "http://oboticario.com/sponsor",
+      "whatsapp": "http://whatsapp.com/oboticario",
+      "x": "http://x.com/oboticario"
+    }
+  ],
+  "owner": [
+    { "owner_id_bd": 1, "storeOwnerId": 101, "owner_name": "Ana Pereira" },
+    { "owner_id_bd": 2, "storeOwnerId": 102, "owner_name": "Bruno Costa" },
+    { "owner_id_bd": 3, "storeOwnerId": 103, "owner_name": "Clara Mendes" },
+    { "owner_id_bd": 4, "storeOwnerId": 104, "owner_name": "Diego Lima" },
+    { "owner_id_bd": 5, "storeOwnerId": 105, "owner_name": "Elisa Souza" },
+    { "owner_id_bd": 6, "storeOwnerId": 106, "owner_name": "Fábio Almeida" },
+    { "owner_id_bd": 7, "storeOwnerId": 107, "owner_name": "Gabriela Rocha" },
+    { "owner_id_bd": 8, "storeOwnerId": 108, "owner_name": "Hugo Santos" },
+    { "owner_id_bd": 9, "storeOwnerId": 109, "owner_name": "Isabela Ferreira" },
+    {
+      "owner_id_bd": 10,
+      "storeOwnerId": 110,
+      "owner_name": "João Vendedor Estrela"
+    },
+    { "owner_id_bd": 11, "storeOwnerId": 111, "owner_name": "Karina Lopes" },
+    { "owner_id_bd": 12, "storeOwnerId": 112, "owner_name": "Lucas Ribeiro" },
+    { "owner_id_bd": 13, "storeOwnerId": 113, "owner_name": "Mariana Silva" },
+    { "owner_id_bd": 14, "storeOwnerId": 114, "owner_name": "Natália Gomes" },
+    { "owner_id_bd": 15, "storeOwnerId": 115, "owner_name": "Otávio Pinto" },
+    { "owner_id_bd": 16, "storeOwnerId": 116, "owner_name": "Paula Teixeira" },
+    { "owner_id_bd": 17, "storeOwnerId": 117, "owner_name": "Rafael Duarte" },
+    { "owner_id_bd": 18, "storeOwnerId": 118, "owner_name": "Sofia Martins" },
+    { "owner_id_bd": 19, "storeOwnerId": 119, "owner_name": "Tiago Oliveira" },
+    {
+      "owner_id_bd": 20,
+      "storeOwnerId": 120,
+      "owner_name": "Vendedor Magalu Estrela"
+    },
+    { "owner_id_bd": 21, "storeOwnerId": 121, "owner_name": "André Carvalho" },
+    { "owner_id_bd": 22, "storeOwnerId": 122, "owner_name": "Beatriz Nunes" },
+    { "owner_id_bd": 23, "storeOwnerId": 123, "owner_name": "Caio Fernandes" },
+    { "owner_id_bd": 24, "storeOwnerId": 124, "owner_name": "Daniela Castro" },
+    { "owner_id_bd": 25, "storeOwnerId": 125, "owner_name": "Eduardo Barbosa" },
+    { "owner_id_bd": 26, "storeOwnerId": 126, "owner_name": "Fernanda Dias" },
+    { "owner_id_bd": 27, "storeOwnerId": 127, "owner_name": "Gustavo Mendes" },
+    { "owner_id_bd": 28, "storeOwnerId": 128, "owner_name": "Helena Lima" },
+    { "owner_id_bd": 29, "storeOwnerId": 129, "owner_name": "Igor Santos" },
+    {
+      "owner_id_bd": 30,
+      "storeOwnerId": 130,
+      "owner_name": "Vendedor Boticário Estrela"
+    }
+  ],
+  "store": [
+    {
+      "store_id_bd": 1,
+      "storeId": "COCA001",
+      "storeCategory": "Bebidas",
+      "storeName": "Coca-Cola Refresh",
+      "shortDescription": "Bebidas refrescantes para todos os momentos",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://coca-cola.com/refresh",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 10
+    },
+    {
+      "store_id_bd": 2,
+      "storeId": "COCA002",
+      "storeCategory": "Bebidas",
+      "storeName": "Coca-Cola Energy",
+      "shortDescription": "Energia para o seu dia",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://coca-cola.com/energy",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 10
+    },
+    {
+      "store_id_bd": 3,
+      "storeId": "COCA003",
+      "storeCategory": "Bebidas",
+      "storeName": "Coca-Cola Zero",
+      "shortDescription": "Sabor sem açúcar",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://coca-cola.com/zero",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 10
+    },
+    {
+      "store_id_bd": 4,
+      "storeId": "MAG001",
+      "storeCategory": "Eletrônicos",
+      "storeName": "Magalu Tech",
+      "shortDescription": "Tecnologia de ponta",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/tech",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 5,
+      "storeId": "MAG002",
+      "storeCategory": "Móveis",
+      "storeName": "Magalu Casa",
+      "shortDescription": "Decoração para seu lar",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/casa",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 6,
+      "storeId": "MAG003",
+      "storeCategory": "Moda",
+      "storeName": "Magalu Fashion",
+      "shortDescription": "Estilo para todos",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/fashion",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 7,
+      "storeId": "MAG004",
+      "storeCategory": "Esportes",
+      "storeName": "Magalu Fit",
+      "shortDescription": "Equipamentos para sua saúde",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/fit",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 8,
+      "storeId": "MAG005",
+      "storeCategory": "Brinquedos",
+      "storeName": "Magalu Kids",
+      "shortDescription": "Diversão para crianças",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/kids",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 9,
+      "storeId": "MAG006",
+      "storeCategory": "Livros",
+      "storeName": "Magalu Books",
+      "shortDescription": "Leituras inspiradoras",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/books",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 10,
+      "storeId": "MAG007",
+      "storeCategory": "Eletrodomésticos",
+      "storeName": "Magalu Home",
+      "shortDescription": "Facilidade no dia a dia",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/home",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 11,
+      "storeId": "MAG008",
+      "storeCategory": "Beleza",
+      "storeName": "Magalu Beauty",
+      "shortDescription": "Produtos de cuidado pessoal",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/beauty",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 12,
+      "storeId": "MAG009",
+      "storeCategory": "Games",
+      "storeName": "Magalu Games",
+      "shortDescription": "Diversão interativa",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/games",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 13,
+      "storeId": "MAG010",
+      "storeCategory": "Pet",
+      "storeName": "Magalu Pet",
+      "shortDescription": "Tudo para seu animalzinho",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://magalu.com/pet",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "store_id_bd": 14,
+      "storeId": "BOT001",
+      "storeCategory": "Perfumes",
+      "storeName": "Boticário Fragrâncias",
+      "shortDescription": "Perfumes que encantam",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://oboticario.com/fragrances",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 30
+    },
+    {
+      "store_id_bd": 15,
+      "storeId": "BOT002",
+      "storeCategory": "Maquiagem",
+      "storeName": "Boticário Make",
+      "shortDescription": "Beleza em cada pincelada",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://oboticario.com/make",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 30
+    },
+    {
+      "store_id_bd": 16,
+      "storeId": "BOT003",
+      "storeCategory": "Cuidados",
+      "storeName": "Boticário Care",
+      "shortDescription": "Cuidado para sua pele",
+      "isActive": true,
+      "affiliateStore": true,
+      "productLikeStore": true,
+      "storeAffiliateLink": "http://oboticario.com/care",
+      "data_criacao": "2025-01-01",
+      "owner_owner_id_bd": 30
+    }
+  ],
+  "community": [
+    {
+      "community_id_bd": 1,
+      "placeId": 1001,
+      "bairro": "Vila Olímpia",
+      "cep": "04551000",
+      "cidade": "São Paulo",
+      "condominio": "Tech Village",
+      "endereco": "Rua Tech, 100",
+      "estado": "SP",
+      "geoPoint": "-23.5950,-46.6850",
+      "local": "Tech Hub",
+      "tipoLocal": "Comercial",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "community_id_bd": 2,
+      "placeId": 1002,
+      "bairro": "Jardins",
+      "cep": "01424000",
+      "cidade": "São Paulo",
+      "condominio": "Green Condo",
+      "endereco": "Avenida Green, 200",
+      "estado": "SP",
+      "geoPoint": "-23.5678,-46.6543",
+      "local": "Green Space",
+      "tipoLocal": "Residencial",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "community_id_bd": 3,
+      "placeId": 1003,
+      "bairro": "Pinheiros",
+      "cep": "05416000",
+      "cidade": "São Paulo",
+      "condominio": "Creative Loft",
+      "endereco": "Rua Creative, 300",
+      "estado": "SP",
+      "geoPoint": "-23.5700,-46.6900",
+      "local": "Creative Hub",
+      "tipoLocal": "Comercial",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "community_id_bd": 4,
+      "placeId": 1004,
+      "bairro": "Moema",
+      "cep": "04083000",
+      "cidade": "São Paulo",
+      "condominio": "Family Towers",
+      "endereco": "Avenida Family, 400",
+      "estado": "SP",
+      "geoPoint": "-23.6000,-46.6700",
+      "local": "Family Place",
+      "tipoLocal": "Residencial",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "community_id_bd": 5,
+      "placeId": 1005,
+      "bairro": "Itaim Bibi",
+      "cep": "04542000",
+      "cidade": "São Paulo",
+      "condominio": "Business Plaza",
+      "endereco": "Rua Business, 500",
+      "estado": "SP",
+      "geoPoint": "-23.5850,-46.6750",
+      "local": "Business Center",
+      "tipoLocal": "Comercial",
+      "owner_owner_id_bd": 20
+    },
+    {
+      "community_id_bd": 6,
+      "placeId": 1006,
+      "bairro": "Morumbi",
+      "cep": "05650000",
+      "cidade": "São Paulo",
+      "condominio": "Beauty Condo",
+      "endereco": "Rua Beauty, 600",
+      "estado": "SP",
+      "geoPoint": "-23.6200,-46.7000",
+      "local": "Beauty Hub",
+      "tipoLocal": "Residencial",
+      "owner_owner_id_bd": 30
+    },
+    {
+      "community_id_bd": 7,
+      "placeId": 1007,
+      "bairro": "Alphaville",
+      "cep": "06455000",
+      "cidade": "Barueri",
+      "condominio": "Fragrance Park",
+      "endereco": "Avenida Fragrance, 700",
+      "estado": "SP",
+      "geoPoint": "-23.5000,-46.8500",
+      "local": "Fragrance Village",
+      "tipoLocal": "Comercial",
+      "owner_owner_id_bd": 30
+    },
+    {
+      "community_id_bd": 8,
+      "placeId": 1008,
+      "bairro": "Brooklin",
+      "cep": "04578000",
+      "cidade": "São Paulo",
+      "condominio": "Glow Towers",
+      "endereco": "Rua Glow, 800",
+      "estado": "SP",
+      "geoPoint": "-23.6150,-46.6850",
+      "local": "Glow Space",
+      "tipoLocal": "Residencial",
+      "owner_owner_id_bd": 30
+    },
+    {
+      "community_id_bd": 9,
+      "placeId": 1009,
+      "bairro": "Vila Mariana",
+      "cep": "04010000",
+      "cidade": "São Paulo",
+      "condominio": "Scent Plaza",
+      "endereco": "Avenida Scent, 900",
+      "estado": "SP",
+      "geoPoint": "-23.5800,-46.6400",
+      "local": "Scent Center",
+      "tipoLocal": "Comercial",
+      "owner_owner_id_bd": 30
+    },
+    {
+      "community_id_bd": 10,
+      "placeId": 1010,
+      "bairro": "Perdizes",
+      "cep": "05014000",
+      "cidade": "São Paulo",
+      "condominio": "Essence Condo",
+      "endereco": "Rua Essence, 1000",
+      "estado": "SP",
+      "geoPoint": "-23.5350,-46.6750",
+      "local": "Essence Hub",
+      "tipoLocal": "Residencial",
+      "owner_owner_id_bd": 30
+    }
+  ],
+  "usuario": [
+    { "user_id_bd": 1, "owner_owner_id_bd": 20 },
+    { "user_id_bd": 2, "owner_owner_id_bd": 20 },
+    { "user_id_bd": 3, "owner_owner_id_bd": 20 },
+    { "user_id_bd": 251, "owner_owner_id_bd": 30 },
+    { "user_id_bd": 252, "owner_owner_id_bd": 30 },
+    { "user_id_bd": 253, "owner_owner_id_bd": 30 }
+  ],
+  "sponsor_owner_plan": [
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 1,
+      "planData_plan_id_bd": 1,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 2,
+      "planData_plan_id_bd": 2,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    },
+    {
+      "sponsor_sponsor_id_bd": 3,
+      "planData_plan_id_bd": 3,
+      "data_inicio": "2025-01-01T00:00:00Z",
+      "data_fim": "2025-12-31T23:59:59Z"
+    }
+  ],
+  "owner_community": [
+    { "owner_owner_id_bd": 20, "community_community_id_bd": 1 },
+    { "owner_owner_id_bd": 20, "community_community_id_bd": 2 },
+    { "owner_owner_id_bd": 20, "community_community_id_bd": 3 },
+    { "owner_owner_id_bd": 20, "community_community_id_bd": 4 },
+    { "owner_owner_id_bd": 20, "community_community_id_bd": 5 },
+    { "owner_owner_id_bd": 30, "community_community_id_bd": 6 },
+    { "owner_owner_id_bd": 30, "community_community_id_bd": 7 },
+    { "owner_owner_id_bd": 30, "community_community_id_bd": 8 },
+    { "owner_owner_id_bd": 30, "community_community_id_bd": 9 },
+    { "owner_owner_id_bd": 30, "community_community_id_bd": 10 }
+  ],
+  "usuario_community": [
+    { "usuario_user_id_bd": 1, "community_community_id_bd": 1 },
+    { "usuario_user_id_bd": 2, "community_community_id_bd": 2 },
+    { "usuario_user_id_bd": 3, "community_community_id_bd": 3 },
+    { "usuario_user_id_bd": 20, "community_community_id_bd": 11 },
+    { "usuario_user_id_bd": 20, "community_community_id_bd": 12 },
+    { "usuario_user_id_bd": 251, "community_community_id_bd": 6 },
+    { "usuario_user_id_bd": 252, "community_community_id_bd": 7 },
+    { "usuario_user_id_bd": 253, "community_community_id_bd": 8 },
+    { "usuario_user_id_bd": 30, "community_community_id_bd": 11 },
+    { "usuario_user_id_bd": 30, "community_community_id_bd": 12 }
+  ]
+}
