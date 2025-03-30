@@ -17,6 +17,72 @@ Com uma interface **interativa**, os usuários poderão **analisar tendências e
 
 Criar um **Dashboard Web** que apresente **dados essenciais** para **patrocinadores, stakeholders e administradores**, garantindo um **alto nível de usabilidade e performance**.
 
+## 🚀 Metodologia
+
+Projeto baseado na metodologia ágil **SCRUM**, com foco no desenvolvimento de:
+
+- ✅ Proatividade  
+- ✅ Autonomia  
+- ✅ Colaboração  
+- ✅ Entrega de Resultados
+
+## 📌 Status do Projeto: **Em andamento** 
+
+## 📌 Backlog do Produto
+
+| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
+|---------|-----------|------------|------------|--------|------------------------|
+| 1       | Alta      | Como patrocinador, quero visualizar um página com um dashboard para a exibição de dados relevantes da minha empresa. | 2 | 1 | RFP-1 |
+| 2       | Alta      | Como administrador, quero visualizar, no dashboard, um mapa com números fictícios para, posteriormente, inserir dados nele. | 4 | 1 | RFP-2 |
+| 3       | Alta      | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada.| 6 | 2 | RFP-3 |
+| 4       | Média     | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4|
+| 5       | Média     | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
+
+
+## 📌 Backlog da Sprint 1
+
+| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
+|---------|------------|------------|------------|--------|------------------------|
+| 1       | Alta       | Como patrocinador, quero visualizar uma página com um dashboard para a exibição de dados relevantes da minha empresa. | 2 | 1 | RFP-1 |
+| 2       | Alta       | Como administrador, quero visualizar, no dashboard, um mapa com números fictícios para, posteriormente, inserir dados nele. | 4 | 1 | RFP-2 |
+
+
+## 📌 Backlog da Sprint 2
+
+| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
+|---------|------------|------------|------------|--------|------------------------|
+| 3       | Alta       | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada. | 6 | 2 | RFP-3 |
+| 4       | Média      | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4 |
+| 5       | Média      | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
+
+
+## 📌 Backlog da Sprint 3
+
+| 6       | Média     | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
+| 7       | Baixa     | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
+
+## 🖥️ Design de Interação
+
+Como parte do planejamento do projeto, foram criados **wireframes** e **mockups** para a idealização do layout.  
+Após validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. 🔗 [Clique aqui para visualizar o protótipo](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
+
+## 📚 Documentação
+
+Clique aqui para visualizar os principais elementos que estruturaram o desenvolvimento do produto, desde os requisitos até a validação das funcionalidades entregues.
+
+## 👥 Equipe
+
+| Função         | Nome                                           | LinkedIn & GitHub |
+|----------------|------------------------------------------------|--------------------|
+| Product Owner  | Julia da Rosa Silva                   | [![LinkedIn](https://www.linkedin.com/in/julia-da-rosa-silva-26455bb0/?originalSubdomain=br)](LINKEDIN_URL) [![GitHub](https://github.com/juliaroosas)](GITHUB_URL) |
+| Scrum Master   | Emanuelle Oliveira         | [![LinkedIn](https://www.linkedin.com/in/emanuelle-oliveira-data-architect/)](LINKEDIN_URL) [![GitHub]([https://img.shields.io/badge/-GitHub-black?logo=github](https://github.com/Emanuelle-olv))](GITHUB_URL) |
+| Dev Team       | Fabio Fonseca              | [![LinkedIn](https://www.linkedin.com/in/fabiofonsecajodi/)](LINKEDIN_URL) [![GitHub](https://github.com/jodijotar)](GITHUB_URL) |
+| Dev Team       | Francisco Rafael Pires              | [![LinkedIn](https://www.linkedin.com/in/francisco-rafael-pires-755958163/)](LINKEDIN_URL) [![GitHub](https://github.com/franciscorafaelpires)](GITHUB_URL) |
+| Dev Team       | Giovanni Kanjiscuk                               | [![LinkedIn](https://www.linkedin.com/in/giovanni-kanjiscuk/)](LINKEDIN_URL) [![GitHub](https://github.com/GKanjiscuk)](GITHUB_URL) |
+| Dev Team       | João Vitor Silva                        | [![LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-vitor-ven%C3%A2ncio-da-silva-b0239819b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)](LINKEDIN_URL) [![GitHub](https://github.com/joaovvsilva)](GITHUB_URL) |
+| Dev Team       | Matheus Felipe Ramos                  | [![LinkedIn](http://www.linkedin.com/in/matheus-felipe-0832b52ba)](LINKEDIN_URL) [![GitHub](https://github.com/KwMajor)](GITHUB_URL) |
+
+
 ## Instalação/Utilização
 ```sh
 git clone --recurse-submodules https://github.com/ORBIS-2DSM-API/orbis-main.git
@@ -27,44 +93,4 @@ cd orbis-main
 ```sh
 npm run dev
 ```
-
-## ⚙️ Tecnologias Utilizadas
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira" width="50"/>
-</p>
-
-
-## 📌 Backlog do Produto
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|-----------|------------|------------|--------|------------------------|
-| 1       | Alta      | Como administrador, quero manejar o banco de dados para inserir novos dados. | 4 | 1 | RFP - 1 |
-| 2       | Alta      | Como patrocinador, quero visualizar a quantidade de lojas criadas na plataforma para acompanhar o crescimento do negócio. | 2 | 1 | RFP - 2 |
-| 3       | Alta      | Como patrocinador, quero visualizar o número de pessoas impactadas pela plataforma para entender seu alcance social. | 2 | 1 | RFP - 3 |
-| 4       | Alta      | Como patrocinador, quero visualizar um mapa/gráfico com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 1 | 1 | RFP - 4 |
-| 5       | Média     | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no mapa/gráfico. | 4 | 2 | RFP - 4 |
-| 6       | Média     | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 2 | RNFP - 1 |
-
-
-
-## 📌 Planejamento do Produto
-
-| **Feature**                | **User Story** | **Casos de Uso** | **DoR (Definition of Ready)** | **DoD (Definition of Done)** |
-|----------------------------|---------------|------------------|-------------------------------|------------------------------|
-| **Métricas de crescimento** | Como patrocinador, quero visualizar a quantidade de lojas criadas na plataforma para acompanhar o crescimento do negócio. | 1. O sistema consulta o banco de dados para obter as métricas. <br> 2. API retorna os dados ao frontend. <br> 3. O dashboard exibe as métricas. | - Base de dados estruturada. <br> - Definição dos KPIs e formas de exibição. | - Métricas implementadas e testadas. <br> - Modelos disponíveis no dashboard. |
-| **Métricas de crescimento** | Como patrocinador, quero visualizar o número de pessoas impactadas pela plataforma para entender seu alcance social. | 1. O sistema consulta o banco de dados para obter métricas. <br> 2. API retorna os dados ao frontend. <br> 3. O dashboard exibe as métricas. | - Base de dados estruturada. <br> - Definição dos KPIs e formas de exibição. | - Métricas implementadas e testadas. <br> - Modelos disponíveis no dashboard. |
-| **Migração de dados** | Como administrador, quero manejar o banco de dados para inserir novos dados. | 1. Administrador inicia o processo de migração. <br> 2. O sistema converte JSON para tabelas no banco. <br> 3. Logs detalhados da migração são gerados. | - Banco relacional definido. <br> - Estrutura dos dados mapeada. | - Dados migrados corretamente. <br> - Logs acessíveis ao administrador. |
-| **Mapa/gráfico interativo** | Como patrocinador, quero visualizar um mapa/gráfico com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 1. O patrocinador acessa o mapa/gráfico interativo no dashboard. <br> 2. O sistema consulta a base de dados georreferenciada. <br> 3. O gráfico revela dinamicamente a distribuição de lojas e usuários. <br> | - Definição da fonte de dados geográficos. <br> - Layout inicial do mapa/gráfico validado. <br> - Requisitos funcionais definidos. | - Gráfico interativo funcional. <br> - Atualização integrada e em tempo real. |
-| **Documentação** | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 1. O patrocinador acessa a aba de documentação. <br> 2. O manual detalha funcionalidades do dashboard. <br> 3. O patrocinador pode baixá-lo em PDF ou acessá-lo via web. | - Estrutura do manual definida. <br> - Revisão de conteúdo aprovada. | - Documentação publicada e acessível na plataforma. |
-
-
-
-💡 *As informações serão atualizadas de acordo com o andamento do projeto.* 
 
