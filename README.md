@@ -26,8 +26,6 @@ Projeto baseado na metodologia ágil **SCRUM**, com foco no desenvolvimento de:
 - ✅ Colaboração  
 - ✅ Entrega de Resultados
 
-## 📌 Status do Projeto: **Em andamento** 
-
 ## 📌 Backlog do Produto
 
 | Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
@@ -55,20 +53,43 @@ Projeto baseado na metodologia ágil **SCRUM**, com foco no desenvolvimento de:
 | 4       | Média      | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4 |
 | 5       | Média      | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
 
+### 📌 Backlog da Sprint 3
 
-## 📌 Backlog da Sprint 3
+| ID | Prioridade | User Story | Esforço | Complexidade | RNFP |
+|----|------------|------------|---------|--------------|------|
+| 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
+| 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
 
-| 6       | Média     | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
-| 7       | Baixa     | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
 
 ## 🖥️ Design de Interação
 
 Como parte do planejamento do projeto, foram criados **wireframes** e **mockups** para a idealização do layout.  
-Após validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. 🔗 [Clique aqui para visualizar o protótipo](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
+Após validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. 
+🔗 [Clique aqui para visualizá-lo](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
+
+### 🚀 Primeira Versão do Produto
+
+Nesta entrega inicial, priorizamos a visualização do dashboard. Essa versão serve como base para testes e feedbacks que visam aprimorar a experiência do usuário e expandir os recursos da plataforma.
+
+📺 [Acesse aqui a demonstração em vídeo](https://youtu.be/eZKzUQaWa0E)
 
 ## 📚 Documentação
 
 Clique aqui para visualizar os principais elementos que estruturaram o desenvolvimento do produto, desde os requisitos até a validação das funcionalidades entregues.
+
+## 🚧 Instalação e Execução do Projeto
+
+Siga os passos abaixo para clonar o repositório e iniciar o ambiente de desenvolvimento:
+
+sh
+git clone --recurse-submodules https://github.com/ORBIS-2DSM-API/orbis-main.git
+
+sh
+cd orbis-main
+
+sh
+npm run dev
+
 
 ## 👥 Equipe
 
@@ -83,14 +104,4 @@ Clique aqui para visualizar os principais elementos que estruturaram o desenvolv
 | Dev Team       | Matheus Felipe Ramos                  | [![LinkedIn](http://www.linkedin.com/in/matheus-felipe-0832b52ba)](LINKEDIN_URL) [![GitHub](https://github.com/KwMajor)](GITHUB_URL) |
 
 
-## Instalação/Utilização
-```sh
-git clone --recurse-submodules https://github.com/ORBIS-2DSM-API/orbis-main.git
-```
-```sh
-cd orbis-main
-```
-```sh
-npm run dev
-```
 
