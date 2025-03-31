@@ -4,7 +4,7 @@
       <img src="https://github.com/ORBIS-2DSM-API/docs/blob/main/logo.jpg" alt="Logo Orbis" width="150" style="border-radius: 12px;" />
     </td>
     <td style="padding-left: 20px;">
-      <h2 style="margin-bottom: 5px;">👋 Bem-vindo ao projeto do grupo <strong>Orbis</strong>!</h2>
+      <h2 style="margin-bottom: 5px;"> Bem-vindo ao projeto do grupo <strong>Orbis</strong>!</h2>
       <p>
         Desenvolvido por estudantes do <strong>2º semestre</strong> do curso de <br />
         <strong>Desenvolvimento de Software Multiplataforma</strong> da <br />
@@ -15,21 +15,21 @@
 </table>
 
 <p align="center">
-  <a href="#dashboard-web-com-dados-de-impacto"> Dashboard Web com Dados de Impacto</a> •
-  <a href="#objetivo"> Objetivo</a> •
-  <a href="#metodologia"> Metodologia</a> •
-  <a href="#backlog-do-produto"> Backlog do Produto</a> •
-  <a href="#documentação-ampliada"> Documentação Ampliada</a> •
-  <a href="#design-de-interação"> Design de Interação</a> •
-  <a href="#primeira-versão-do-produto"> Primeira Versão do Produto</a> •
-  <a href="#tecnologias-e-ferramentas"> Tecnologias e Ferramentas</a> •
-  <a href="#equipe"> Equipe</a>
+  <a href="#dashboard-web-com-dados-de-impacto">Dashboard Web com Dados de Impacto</a> •
+  <a href="#objetivo">Objetivo</a> •
+  <a href="#metodologia">Metodologia</a> •
+  <a href="#backlog-do-produto">Backlog do Produto</a> •
+  <a href="#documentacao-ampliada">Documentacao Ampliada</a> •
+  <a href="#design-de-interacao">Design de Interacao</a> •
+  <a href="#primeira-versao-do-produto">Primeira Versao do Produto</a> •
+  <a href="#tecnologias-e-ferramentas">Tecnologias e Ferramentas</a> •
+  <a href="#equipe">Equipe</a>
 </p>
 
 
 </div>
 
-### 📊 Dashboard Web com Dados de Impacto
+### <h3 id="dashboard-web-com-dados-de-impacto">📊 Dashboard Web com Dados de Impacto</h3>
 Trata-se de um recurso desenvolvido para visualizar os principais indicadores de patrocinadores que fazem uso da plataforma **Helpnei**, evindeciando o crescimento e o engajamento dessas empresas.
 
 O dashboard exibe **informações estratégicas** em tempo real, incluindo:
@@ -41,20 +41,20 @@ O dashboard exibe **informações estratégicas** em tempo real, incluindo:
 Com uma interface **interativa**, os usuários poderão **analisar tendências e obter insights valiosos** para **tomada de decisões estratégicas**.
 
 
-### 🎯 Objetivo
+### <h3 id="objetivo">🎯 Objetivo</h3>
 
 Criar um **Dashboard Web** que apresente **dados essenciais** para **patrocinadores, stakeholders e administradores**, garantindo um **alto nível de usabilidade e performance**.
 
-### 🚀 Metodologia
+### <h3 id="metodologia">🚀 Metodologia</h3>
 
-Projeto baseado na metodologia ágil **SCRUM**, com foco no desenvolvimento de:
+Projeto baseado na metodologia ágil **SCRUM**, com foco em:
 
- - Proatividade  
- - Autonomia  
- - Colaboração  
- - Entrega de Resultados
+ - Proatividade;  
+ - Autonomia;  
+ - Colaboração;  
+ - Entrega de Resultados.
 
-### 📌 Backlog do Produto
+### <h3 id="backlog-do-produto">📌 Backlog do Produto</h3>
 
 | Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
 |---------|-----------|------------|------------|--------|------------------------|
@@ -88,19 +88,19 @@ Projeto baseado na metodologia ágil **SCRUM**, com foco no desenvolvimento de:
 | 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
 | 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
 
-### 📚 Documentação ampliada
+### <h3 id="documentacao-ampliada">📚 Documentação Ampliada</h3>
 
 [Clique aqui](https://github.com/ORBIS-2DSM-API/docs/blob/main/Documenta%C3%A7%C3%A3o.pdf) para visualizar os principais elementos que estruturaram o desenvolvimento do produto, desde os requisitos até a validação das funcionalidades entregues.
 
-### 🖥️ Design de Interação
+### <h3 id="design-de-interacao">🖥️ Design de Interação</h3>
 
 Como parte do planejamento do projeto, foram criados **wireframes** e **mockups** para a idealização do layout. Após a validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. [Clique e confira!](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
 
-### 🚀 Primeira Versão do Produto
+### <h3 id="primeira-versao-do-produto">🚀 Primeira Versão do Produto</h3>
 
 Nesta entrega inicial, priorizamos a visualização do dashboard. Essa versão serve como base para testes e feedbacks que visam aprimorar a experiência do usuário e expandir os recursos da plataforma. [Acesse a demonstração em vídeo.](https://youtu.be/eZKzUQaWa0E)
 
-### 🛠️ Tecnologias e Ferramentas 
+### <h3 id="tecnologias-e-ferramentas">🛠️ Tecnologias e Ferramentas</h3>
 
 As seguintes tecnologias e ferramentas foram utilizadas na construção do projeto:
 <p>
@@ -119,7 +119,7 @@ As seguintes tecnologias e ferramentas foram utilizadas na construção do proje
   <img src="https://img.shields.io/badge/-Discord-5865F2?logo=discord&logoColor=white" />
 </p>
 
-### 👥 Equipe
+### <h3 id="equipe">👥 Equipe</h3>
 
 | Função         | Nome                       | LinkedIn & GitHub |
 |----------------|----------------------------|-------------------|
