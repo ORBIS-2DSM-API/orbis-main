@@ -86,7 +86,7 @@ Projeto baseado na metodologia ágil **SCRUM**, com foco em:
 
 #### Backlog da Sprint 3
 
-| ID | Prioridade | User Story | Esforço | Complexidade | RNFP |
+| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
 |----|------------|------------|---------|--------------|------|
 | 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
 | 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
