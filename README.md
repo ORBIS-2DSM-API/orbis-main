@@ -63,6 +63,9 @@ Projeto baseado na metodologia ágil **SCRUM**, com foco em:
 | 3       | Alta      | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada.| 6 | 2 | RFP-3 |
 | 4       | Média     | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4|
 | 5       | Média     | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
+| 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
+| 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
+
 
 
 #### Backlog da Sprint 1
