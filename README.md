@@ -47,7 +47,6 @@ O projeto foi desenvolvido com foco em **usabilidade**, **performance** e **clar
 
 ### <h3 id="entregas-de-sprints">🚩 Entregas de Sprints</h3>
 
-Cada entrega foi realizada com criação de tags e relatórios específicos.
 
 | Sprint | Previsão  | Status   | Histórico      |
 |:------:|:---------:|:--------:|:--------------:|
