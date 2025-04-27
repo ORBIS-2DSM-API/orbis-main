@@ -56,44 +56,13 @@ Projeto baseado na metodologia ágil **SCRUM**, com foco em:
 
 ### <h3 id="backlog-do-produto">📌 Backlog do Produto</h3>
 
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|-----------|------------|------------|--------|------------------------|
-| 1       | Alta      | Como patrocinador, quero visualizar um página com um dashboard para a exibição de dados relevantes da minha empresa. | 2 | 1 | RFP-1 |
-| 2       | Alta      | Como administrador, quero visualizar, no dashboard, um mapa com números fictícios para, posteriormente, inserir dados nele. | 4 | 1 | RFP-2 |
-| 3       | Alta      | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada.| 6 | 2 | RFP-3 |
-| 4       | Média     | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4|
-| 5       | Média     | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
-| 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
-| 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
-
-
-
-#### Backlog da Sprint 1
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|------------|------------|------------|--------|------------------------|
-| 1       | Alta       | Como patrocinador, quero visualizar uma página com um dashboard para a exibição de dados relevantes da minha empresa. | 2 | 1 | RFP-1 |
-| 2       | Alta       | Como administrador, quero visualizar, no dashboard, um mapa com números fictícios para, posteriormente, inserir dados nele. | 4 | 1 | RFP-2 |
-
-
-#### Backlog da Sprint 2
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|------------|------------|------------|--------|------------------------|
-| 3       | Alta       | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada. | 6 | 2 | RFP-3 |
-| 4       | Média      | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4 |
-| 5       | Média      | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
-
-#### Backlog da Sprint 3
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|----|------------|------------|---------|--------------|------|
-| 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
-| 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
-
-### <h3 id="documentacao-ampliada">📚 Documentação Ampliada</h3>
-
-[Clique aqui](https://github.com/ORBIS-2DSM-API/docs/blob/main/Documenta%C3%A7%C3%A3o.pdf) para visualizar os principais elementos que estruturaram o desenvolvimento do produto, desde os requisitos até a validação das funcionalidades entregues.
+| N°  - US | User Story | Sprint | Prioridade | N° - Requisito |
+| --- | --- | --- | --- | --- |
+| US - 1.0 | Como potencial patrocinador, desejo uma pagina de recepção que exiba e proporcione um fácil acesso as informações das empresas patrocinadoras | 1 | Alta | RFP - 1 |
+| US - 1.1 | Como potencial patrocinador, na pagina de recepção, desejo visualizar o total de transações, a quantidade de lojas criadas, numero de usuários impactados e suas respectivas distribuições geográficas. Com a finalidade de avaliar e metrificar os benefícios de financiar um patrocínio | 1/2 | Alta | RFP - 1 |
+| US - 1.1.1 | Como patrocinador, quero uma pagina dedicada para minha empresa com um link e informações exclusivas e complementares ao dashboard da pagina de recepção (US - 1.1), e desse modo, filtrar por período a quantidade de usuários impactados de um patrocinador.  | 2/3 | Média | RFP - 1 |
+| US -  2.0 | Como dono de lojas/“owner”, quero poder acessar uma pagina com informações referentes ao programa de patrocínio e visualizar quais empresas patrocinadoras possuem vagas disponíveis para patrocínio. | 3 | Alta | RFP - 2 |
+| US - 2.1 | Como “owner”, desejo me cadastrar nas vagas disponíveis das empresas patrocinadoras. | 3 | Média | RFP - 2 |
 
 ### <h3 id="design-de-interacao">🖥️ Design de Interação</h3>
 
