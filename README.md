@@ -4,92 +4,53 @@
       <img src="https://github.com/ORBIS-2DSM-API/docs/blob/main/logo.jpg" alt="Logo Orbis" width="150" style="border-radius: 12px;" />
     </td>
     <td style="padding-left: 20px;">
-      <h2 style="margin-bottom: 5px;"> Bem-vindo ao projeto do grupo <strong>Orbis</strong>!</h2>
+      <h2 style="margin-bottom: 5px;">Dashboard Web com Dados de Impacto</h2>
       <p>
-        Desenvolvido por estudantes do <strong>2º semestre</strong> do curso de <br />
-        <strong>Desenvolvimento de Software Multiplataforma</strong> da <br />
-        <strong>Fatec São José dos Campos</strong>.
+        Projeto desenvolvido para a plataforma <strong>Helpnei</strong>.<br />
+        Foco em exibição de indicadores estratégicos para <strong>patrocinadores</strong>, <strong>administradores</strong> e <strong>stakeholders</strong>.
       </p>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="#dashboard-web-com-dados-de-impacto">Dashboard Web com Dados de Impacto</a> •
-  <a href="#objetivo">Objetivo</a> •
-  <a href="#metodologia">Metodologia</a> •
-  <a href="#backlog-do-produto">Backlog do Produto</a> •
-  <a href="#documentacao-ampliada">Documentacao Ampliada</a> •
-  <a href="#design-de-interacao">Design de Interacao</a> •
-  <a href="#primeira-versao-do-produto">Primeira Versao do Produto</a> •
-  <a href="#tecnologias-e-ferramentas">Tecnologias e Ferramentas</a> •
-  <a href="#equipe">Equipe</a>
+  <a href="#sobre-o-projeto">Sobre o Projeto</a> •
+  <a href="#entregas-de-sprints">Entregas de Sprints</a> •
+  <a href="#apresentacao-final">Apresentação Final</a>
 </p>
 
+---
 
-</div>
+### <h3 id="sobre-o-projeto">📊 Sobre o Projeto</h3>
 
-### <h3 id="dashboard-web-com-dados-de-impacto">📊 Dashboard Web com Dados de Impacto</h3>
-Trata-se de um recurso desenvolvido para visualizar os principais indicadores de patrocinadores que fazem uso da plataforma **Helpnei**, evindeciando o crescimento e o engajamento dessas empresas.
+O projeto consiste no desenvolvimento de um **Dashboard Web de Indicadores** para a plataforma **Helpnei**, com o objetivo de monitorar e visualizar, em tempo real, o impacto gerado pelos patrocinadores.
 
-O dashboard exibe **informações estratégicas** em tempo real, incluindo:
+A solução exibe:
 
 - **Número total de lojas criadas**
 - **Quantidade de usuários impactados**
-- **Distribuição geográfica das lojas (cidades atendidas)**
+- **Distribuição geográfica** das lojas (cidades atendidas)
 
-Com uma interface **interativa**, os usuários poderão **analisar tendências e obter insights valiosos** para **tomada de decisões estratégicas**.
+Com uma interface **interativa e responsiva**, o sistema oferece filtros por período (diário, semanal, mensal, anual) e segmentação por localização (cidade, estado, país), permitindo comparações entre diferentes regiões e períodos.
 
+Além disso, o dashboard contempla o **cadastro de usuários**, que informa dados pessoais como nome, idade, cidade, renda familiar e escolaridade. Com base nesse perfil, o sistema apresenta as **empresas patrocinadoras disponíveis**, possibilitando que o usuário selecione sua preferência entre as vagas ofertadas.
 
-### <h3 id="objetivo">🎯 Objetivo</h3>
+O projeto foi desenvolvido com foco em **usabilidade**, **performance** e **clareza na apresentação dos dados**, fornecendo informações estratégicas para apoiar **decisões de expansão, investimento e avaliação de impacto** dos patrocinadores.
 
-Criar um **Dashboard Web** que apresente **dados essenciais** para **patrocinadores, stakeholders e administradores**, garantindo um **alto nível de usabilidade e performance**.
-
-### <h3 id="metodologia">🚀 Metodologia</h3>
-
-Projeto baseado na metodologia ágil **SCRUM**, com foco em:
-
- - Proatividade;  
- - Autonomia;  
- - Colaboração;  
- - Entrega de Resultados.
-
-### <h3 id="backlog-do-produto">📌 Backlog do Produto</h3>
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|-----------|------------|------------|--------|------------------------|
-| 1       | Alta      | Como patrocinador, quero visualizar um página com um dashboard para a exibição de dados relevantes da minha empresa. | 2 | 1 | RFP-1 |
-| 2       | Alta      | Como administrador, quero visualizar, no dashboard, um mapa com números fictícios para, posteriormente, inserir dados nele. | 4 | 1 | RFP-2 |
-| 3       | Alta      | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada.| 6 | 2 | RFP-3 |
-| 4       | Média     | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4|
-| 5       | Média     | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
-| 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
-| 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
+---
 
 
+### <h3 id="entregas-de-sprints">🚩 Entregas de Sprints</h3>
 
-#### Backlog da Sprint 1
+Cada entrega foi realizada com criação de tags e relatórios específicos.
 
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|------------|------------|------------|--------|------------------------|
-| 1       | Alta       | Como patrocinador, quero visualizar uma página com um dashboard para a exibição de dados relevantes da minha empresa. | 2 | 1 | RFP-1 |
-| 2       | Alta       | Como administrador, quero visualizar, no dashboard, um mapa com números fictícios para, posteriormente, inserir dados nele. | 4 | 1 | RFP-2 |
+| Sprint | Previsão  | Status   | Histórico      |
+|:------:|:---------:|:--------:|:--------------:|
+| 01     | 30/03/2025 | Concluída | [Ver Relatório](#) |
+| 02     | 27/04/2025 | Concluída | [Ver Relatório](#) |
+| 03     | 25/05/2025 | Prevista | - |
 
-
-#### Backlog da Sprint 2
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|---------|------------|------------|------------|--------|------------------------|
-| 3       | Alta       | Como administrador, quero acessar um banco de dados para inserir, no dashboard, dados relevantes da empresa patrocinada. | 6 | 2 | RFP-3 |
-| 4       | Média      | Como patrocinador, quero visualizar, no dashboard, a quantidade de lojas criadas e o número de pessoas impactadas para acompanhar o crescimento do negócio. | 2 | 2 | RFP-4 |
-| 5       | Média      | Como patrocinador, quero visualizar um mapa interativo com a distribuição geográfica de lojas e usuários para compreender a abrangência do projeto. | 8 | 2 | RFP-4 |
-
-#### Backlog da Sprint 3
-
-| Ranking | Prioridade | User Story | Estimativa | Sprint | Requisito do parceiro |
-|----|------------|------------|---------|--------------|------|
-| 6  | Média      | Como patrocinador, quero visualizar mais informações sobre os usuários impactados ao selecionar regiões destacadas no gráfico. | 4 | 3 | RNFP - 1 |
-| 7  | Baixa      | Como patrocinador, quero acessar um manual de usuário para entender as funcionalidades do dashboard. | 2 | 3 | RNFP - 1 |
+---
 
 ### <h3 id="documentacao-ampliada">📚 Documentação Ampliada</h3>
 
@@ -128,7 +89,6 @@ As seguintes tecnologias e ferramentas foram utilizadas na construção do proje
 |----------------|----------------------------|-------------------|
 | Product Owner  | Julia da Rosa Silva        | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julia-da-rosa-silva-26455bb0/?originalSubdomain=br) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/juliaroosas) |
 | Scrum Master   | Emanuelle Oliveira         | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuelle-oliveira-data-architect/) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Emanuelle-olv) |
-| Dev Team       | Fabio Fonseca              | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabiofonsecajodi/) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/jodijotar) |
 | Dev Team       | Francisco Rafael Pires     | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-rafael-pires-755958163/) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/franciscorafaelpires) |
 | Dev Team       | Giovanni Kanjiscuk         | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giovanni-kanjiscuk/) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/GKanjiscuk) |
 | Dev Team       | João Vitor Silva           | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-ven%C3%A2ncio-da-silva-b0239819b) [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/joaovvsilva) |
