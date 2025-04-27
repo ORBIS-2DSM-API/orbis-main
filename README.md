@@ -15,8 +15,13 @@
 
 <p align="center">
   <a href="#sobre-o-projeto">Sobre o Projeto</a> •
+  <a href="#status-do-projeto">Status do Projeto</a> •
   <a href="#entregas-de-sprints">Entregas de Sprints</a> •
-  <a href="#apresentacao-final">Apresentação Final</a>
+  <a href="#documentacao-ampliada">Documentação Ampliada</a> •
+  <a href="#design-de-interacao">Design de Interação</a> •
+  <a href="#versao-do-produto">Versão do Produto</a> •
+  <a href="#tecnologias-e-ferramentas">Tecnologias e Ferramentas</a> •
+  <a href="#equipe">Equipe</a>
 </p>
 
 ---
@@ -60,9 +65,9 @@ Cada entrega foi realizada com criação de tags e relatórios específicos.
 
 Como parte do planejamento do projeto, foram criados **wireframes** e **mockups** para a idealização do layout. Após a validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. [Clique e confira!](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
 
-### <h3 id="primeira-versao-do-produto">🚀 Primeira Versão do Produto</h3>
+### <h3 id="versao-do-produto">🚀Versão do Produto</h3>
 
-Nesta entrega inicial, priorizamos a visualização do dashboard. Essa versão serve como base para testes e feedbacks que visam aprimorar a experiência do usuário e expandir os recursos da plataforma. [Acesse a demonstração em vídeo.](https://youtu.be/eZKzUQaWa0E)
+Clique no link para visualizar a entrega desta sprint. [Acesse a demonstração em vídeo.](https://youtu.be/eZKzUQaWa0E)
 
 ### <h3 id="tecnologias-e-ferramentas">🛠️ Tecnologias e Ferramentas</h3>
 
