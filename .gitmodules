@@ -6,6 +6,3 @@
 	path = backend
 	url = https://github.com/ORBIS-2DSM-API/backend.git
 	branch = main
-[submodule "docs"]
-	path = docs
-	url = https://github.com/ORBIS-2DSM-API/docs.git
