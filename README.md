@@ -67,7 +67,7 @@ Como parte do planejamento do projeto, foram criados **wireframes** e **mockups*
 
 ### <h3 id="versao-do-produto">🚀Versão do Produto</h3>
 
-Clique no link para visualizar a entrega desta sprint. [Acesse a demonstração em vídeo.](https://youtu.be/eZKzUQaWa0E)
+Clique no link para visualizar a entrega desta sprint. [Acesse a demonstração em vídeo.](https://youtu.be/Oghgavtpyx0)
 
 ### <h3 id="tecnologias-e-ferramentas">🛠️ Tecnologias e Ferramentas</h3>
 
