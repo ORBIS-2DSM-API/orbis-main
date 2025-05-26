@@ -41,26 +41,23 @@ Dessa forma, o projeto não apenas **qualifica a tomada de decisão dos patrocin
 ## 📌 Backlog do Produto
 
 | Nº - User Story | Descrição – User Story | Sprint | Prioridade | Nº - Requisito |
-| :-------------- | :--------------------- | :----- | :--------- | :------------- |
-| US - 1 | Como potencial patrocinador, desejo uma página de recepção que exiba e proporcione um fácil acesso às informações das empresas patrocinadoras. | 1 | Alta | RFP - 1 |
-| US - 2 | Como potencial patrocinador, na página de recepção, desejo visualizar o total de transações, a quantidade de lojas criadas, o número de usuários impactados e suas respectivas distribuições geográficas, com a finalidade de avaliar e metrificar os benefícios de financiar um patrocínio. | 2 | Alta | RFP – 1, 2, 3 e 4 |
-| US - 3 | Como patrocinador, quero uma página dedicada à minha empresa com um link e informações exclusivas e complementares ao dashboard da página de recepção, para filtrar por período a quantidade de usuários impactados. | 2 | Média | RFP - 1, 2, 3 e 4 |
-| US - 4 | Como dono de lojas/"owner", quero acessar uma página com informações referentes a programas de patrocínio de grandes empresas e visualizar quais delas possuem vagas disponíveis para patrocínio. | 2 | Alta | RFP - 5 |
-| US - 5 | Como usuário e potencial patrocinado, quero me cadastrar nas vagas disponíveis nos programas de patrocínio para ampliar o meu negócio. | 3 | Média | RFP - 5 |
-| US - 6 | Como usuário, quero acessar um manual para entender as funcionalidades do dashboard e visualizar as informações disponíveis. | 3 | Baixa | RNFP - 1 |
-| US - 7 | Como administrador, quero visualizar um guia de instalação para a execução do sistema. | 3 | Baixa | RNFP - 2 |
+|------------------|-------------------------|--------|------------|----------------|
+| US - 1 | Como potencial patrocinador, quero uma página de recepção que exiba e proporcione um fácil acesso às informações das empresas patrocinadoras. | 1 | Alta | RFP - 1 |
+| US - 2 | Como potencial patrocinador, quero um dashboard com o número de usuários impactados, a quantidade de lojas criadas e o total de comunidades para obter uma visualização rápida dos dados. | 2 | Alta | RFP - 1, 2 e 3 |
+| US - 3 | Como patrocinador, quero uma página dedicada à minha empresa com informações exclusivas e complementares ao dashboard, com o total de comunidades, a quantidade de lojas criadas, o número de usuários impactados e suas respectivas distribuições geográficas, com a finalidade de avaliar e metrificar os benefícios de financiar um patrocínio. | 2 | Média | RFP - 1, 2, 3 e 4 |
+| US - 4 | Como empreendedor, quero acessar uma página com informações referentes a programas de patrocínio de grandes empresas para visualizar quais delas possuem vagas disponíveis. | 2 | Alta | RFP - 5 |
+| US - 5 | Como empreendedor, quero me cadastrar nas vagas disponíveis das empresas patrocinadoras, que sejam compatíveis com o meu perfil. | 3 | Média | RFP - 5 |
+| US - 6 | Como usuário, quero acessar um manual para entender as funcionalidades da plataforma. | 3 | Baixa | RNFP - 1 |
+| US - 7 | Como administrador, quero visualizar um guia de execução e instalação do sistema de visualização inteligente com indicadores de impacto, para realizar a integração com os outros sistemas da Helpnei. | 3 | Baixa | RNFP - 2 |
+
 
 ## 📚 Documentação Geral
 
-[Clique aqui](https://github.com/ORBIS-2DSM-API/orbis-main/blob/main/docs/Documenta%C3%A7%C3%A3o_geral.pdf) para visualizar os principais elementos que estruturaram o desenvolvimento do produto, desde os requisitos até a validação das funcionalidades entregues.
+[Clique aqui](https://github.com/ORBIS-2DSM-API/orbis-main/blob/main/docs/Documenta%C3%A7%C3%A3o_geral.pdf) para visualizar os principais elementos que estruturaram o desenvolvimento do produto.
 
-## 🖥️ Design de Interação
+## 🖥️ Versão Final do Produto
 
-Como parte do planejamento do projeto, foram criados **wireframes** e **mockups** para a idealização do layout. Após a validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. [Clique e confira!](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
-
-## 🚀Versão do Produto
-
-Clique no link para visualizar a entrega desta sprint. [Acesse a demonstração em vídeo.](https://youtu.be/Oghgavtpyx0)
+[Acesse a demonstração em vídeo](https://www.youtube.com/watch?v=Nbfi3Eu6lug) do resultado do projeto.
 
 ## 🛠️ Tecnologias e Ferramentas
 
