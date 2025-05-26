@@ -28,7 +28,7 @@ O sistema proposto soluciona essa lacuna ao:
 Dessa forma, o projeto não apenas **qualifica a tomada de decisão dos patrocinadores**, como também **fortalece o ecossistema de apoio ao empreendedorismo**, promovendo conexões mais efetivas e mensuráveis dentro da plataforma.
 
 
-### <h3 id="entregas-de-sprints">🚩 Entregas de Sprints</h3>
+## 🚩 Entregas de Sprints
 
 
 | Sprint | Previsão  | Status   | Histórico      |
@@ -38,7 +38,7 @@ Dessa forma, o projeto não apenas **qualifica a tomada de decisão dos patrocin
 | 3     | 25/5/2025 | Concluída | [Ver Relatório](https://github.com/ORBIS-2DSM-API/orbis-main/blob/main/docs/Documenta%C3%A7%C3%A3o_Sprint3.pdf) |
 
 
-### <h3 id="backlog-do-produto">📌 Backlog do Produto</h3>
+## 📌 Backlog do Produto
 
 | Nº - User Story | Descrição – User Story | Sprint | Prioridade | Nº - Requisito |
 | :-------------- | :--------------------- | :----- | :--------- | :------------- |
@@ -50,19 +50,19 @@ Dessa forma, o projeto não apenas **qualifica a tomada de decisão dos patrocin
 | US - 6 | Como usuário, quero acessar um manual para entender as funcionalidades do dashboard e visualizar as informações disponíveis. | 3 | Baixa | RNFP - 1 |
 | US - 7 | Como administrador, quero visualizar um guia de instalação para a execução do sistema. | 3 | Baixa | RNFP - 2 |
 
-### <h3 id="documentacao-geral">📚 Documentação Geral</h3>
+## 📚 Documentação Geral
 
 [Clique aqui](https://github.com/ORBIS-2DSM-API/orbis-main/blob/main/docs/Documenta%C3%A7%C3%A3o_geral.pdf) para visualizar os principais elementos que estruturaram o desenvolvimento do produto, desde os requisitos até a validação das funcionalidades entregues.
 
-### <h3 id="design-de-interacao">🖥️ Design de Interação</h3>
+## 🖥️ Design de Interação
 
 Como parte do planejamento do projeto, foram criados **wireframes** e **mockups** para a idealização do layout. Após a validação com o cliente, o design aprovado foi utilizado como **referência visual e funcional** para o desenvolvimento da solução. [Clique e confira!](https://www.canva.com/design/DAGhU3N9N9o/HNp14ge8lQ8WLdKfTiFfsQ/view)
 
-### <h3 id="versao-do-produto">🚀Versão do Produto</h3>
+## 🚀Versão do Produto
 
 Clique no link para visualizar a entrega desta sprint. [Acesse a demonstração em vídeo.](https://youtu.be/Oghgavtpyx0)
 
-### <h3 id="tecnologias-e-ferramentas">🛠️ Tecnologias e Ferramentas</h3>
+## 🛠️ Tecnologias e Ferramentas
 
 As seguintes tecnologias e ferramentas foram utilizadas na construção do projeto:
 <p>
@@ -81,7 +81,68 @@ As seguintes tecnologias e ferramentas foram utilizadas na construção do proje
   <img src="https://img.shields.io/badge/-Discord-5865F2?logo=discord&logoColor=white" />
 </p>
 
-### <h3 id="equipe">👥 Equipe</h3>
+## ⚙️ Guia de Instalação e Execução
+
+### Pré-requisitos
+
+- Node.js instalado
+- Gerenciador de pacotes `npm`
+- Git (opcional, caso vá clonar o repositório)
+
+---
+
+### Instalação e Execução do Backend
+
+1. Acesse a pasta do projeto:
+   ```bash
+   cd orbis-main
+   ```
+
+2. Acesse a pasta do backend:
+   ```bash
+   cd backend
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor backend:
+   ```bash
+   npm start
+   ```
+
+---
+
+### Instalação e Execução do Frontend
+
+1. Acesse a pasta principal (caso ainda não esteja nela):
+   ```bash
+   cd orbis-main
+   ```
+
+2. Acesse a pasta do frontend:
+   ```bash
+   cd frontend
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor frontend:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+> **Observação:** Certifique-se de que o backend esteja rodando antes de iniciar o frontend, para que a comunicação entre as aplicações funcione corretamente.
+
+
+## 👥 Equipe
 
 | Função         | Nome                       | LinkedIn & GitHub |
 |----------------|----------------------------|-------------------|
